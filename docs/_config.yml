@@ -1,0 +1,30 @@
+title: D&D Beyond Gamelog – test builds
+description: Tester documentation for D&D Beyond Gamelog v3 (Foundry VTT module).
+url: https://iamwarhead.github.io
+baseurl: /ddb-gamelog-test-releases
+
+remote_theme: just-the-docs/just-the-docs
+plugins:
+  - jekyll-remote-theme
+
+search_enabled: true
+heading_anchors: true
+back_to_top: true
+back_to_top_text: Back to top
+
+aux_links:
+  Discord: https://discord.com/invite/HSTtrphyFg
+  Patreon: https://www.patreon.com/iamwarhead/
+
+footer_content: "Test build documentation. Things may change or break between releases."
+
+callouts:
+  warning:
+    title: Test build
+    color: red
+  note:
+    title: Note
+    color: blue
+
+exclude:
+  - assets/img/README.md
