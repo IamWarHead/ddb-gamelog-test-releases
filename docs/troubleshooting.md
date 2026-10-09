@@ -41,6 +41,14 @@ Check these in order:
 
 If you changed your Patreon membership, the change arrives within seconds and the Connection page updates itself. If your tier still looks wrong a minute later, reload Foundry.
 
+## I upgraded from version 2 and my tier is gone {#upgraded-from-v2}
+
+Version 3 keeps the identifier your world had in version 2, but only when the GM opens Foundry in the same browser that ran version 2. In any other browser, or after clearing its storage, the world gets a new identifier and starts out unlinked.
+
+Log in with Patreon again on the **Connection** page. One click is enough, and your tier comes back, including a membership you held in the past.
+
+If you had a Discord webhook (PRO), it belongs to the old identifier and has to be set again in **Gamelog Config → Integrations → Discord**, see [Discord]({{ '/features/discord.html' | relative_url }}).
+
 ## The wrong character is linked {#the-wrong-character-is-linked}
 
 1. Open **Gamelog Config → Characters**.

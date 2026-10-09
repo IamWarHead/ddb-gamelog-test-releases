@@ -30,6 +30,9 @@ Only public rolls are posted. Rolls that stay private on D&D Beyond (to DM or to
 {: .note }
 A webhook URL lets anyone post to your channel. Do not share it and do not show it in screenshots.
 
+{: .note }
+Upgrading from version 2 can give your world a new identifier, and the webhook belongs to the old one. If posts stop after the upgrade, set the webhook again here, see [Troubleshooting]({{ '/troubleshooting.html' | relative_url }}#upgraded-from-v2).
+
 ## Who can change it
 
 A Foundry world belongs to the first D&D Beyond account that connected it. Other accounts can still relay rolls, but cannot use or change the world's Discord webhook. See [Troubleshooting]({{ '/troubleshooting.html' | relative_url }}#this-world-is-registered-to-another-dd-beyond-account).

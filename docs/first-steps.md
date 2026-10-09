@@ -48,6 +48,9 @@ Linking Patreon unlocks Basic, PRO or MAX features in this world. You can skip t
 
 On the Connection page, use the membership section to log in with Patreon. When it works, the page shows that the world is linked to your membership and its tier. Changes on Patreon apply within seconds.
 
+{: .note }
+Coming from version 2? Your world may ask you to link Patreon again, even though it was linked before. That is expected and takes one click. Your membership and the tiers you held in the past belong to your Patreon account, not to the world, so nothing is lost.
+
 {% include screenshot.html src="patreon-link.png" alt="Patreon link" %}
 
 ## 4. Join the test {#join-the-test}
