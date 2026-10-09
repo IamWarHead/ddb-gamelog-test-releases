@@ -27,13 +27,16 @@ This is a test build. It may break your game session. Do not try it right before
 3. Click **Install**.
 4. Open your world, go to **Game Settings → Manage Modules**, enable **D&D Beyond Gamelog** and save.
 
+{: .note }
+This URL always points at the newest test build, so keep it: you need it once, and Foundry finds every later test release through it.
+
 ![Foundry install dialog with the manifest URL]({{ '/assets/img/install-manifest.png' | relative_url }})
 
 Next: [First steps]({% link first-steps.md %}).
 
 ## Update
 
-Test builds are updated often. To update, open **Add-on Modules** in Foundry and update **D&D Beyond Gamelog** like any other module. Check the [Changelog]({% link changelog.md %}) to see what changed.
+Test builds are updated often. To update, open **Add-on Modules** in Foundry and update **D&D Beyond Gamelog** like any other module. You do not need the manifest URL again, and you do not need to uninstall anything. Check the [Changelog]({% link changelog.md %}) to see what changed.
 
 The module shows its build channel (TEST) and version on its Debug page: **Gamelog Config → Debug panel**.
 

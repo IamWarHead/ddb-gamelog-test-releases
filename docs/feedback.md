@@ -8,7 +8,17 @@ nav_order: 8
 {: .warning }
 This is a test build. It will have bugs. Your reports are the reason it exists.
 
-For now, all feedback and help go through Discord: [https://discord.com/invite/HSTtrphyFg](https://discord.com/invite/HSTtrphyFg)
+For now, all feedback and help go through Discord. If you are not on the server yet, join it first: [https://discord.com/invite/HSTtrphyFg](https://discord.com/invite/HSTtrphyFg)
+
+Each test phase has its own channel. Post your reports in the channel of the phase you are testing:
+
+| Phase | Channel |
+| --- | --- |
+| Closed alpha | [Closed alpha feedback](https://discord.com/channels/809036031835111475/1558030216763547648) |
+| Closed beta | [Closed beta feedback](https://discord.com/channels/809036031835111475/1558031330430816287) |
+| Open beta | [Open beta feedback](https://discord.com/channels/809036031835111475/1558031803317756034) |
+
+The channel links only open once you are on the server.
 
 ## What to include
 
