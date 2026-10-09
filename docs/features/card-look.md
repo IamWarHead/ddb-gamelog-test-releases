@@ -13,7 +13,7 @@ This is a test build. Looks may change between releases and may break. Please re
 
 You can change how roll cards look in Foundry chat.
 
-![Card themes]({{ '/assets/img/card-themes.png' | relative_url }})
+{% include screenshot.html src="card-themes.png" alt="Card themes" %}
 
 | What | Tier |
 | --- | --- |

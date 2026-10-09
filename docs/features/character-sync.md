@@ -32,7 +32,7 @@ The settings are in **Gamelog Config → Characters**, in the **Character update
 
 Damage and healing rolled on D&D Beyond arrive as a dnd5e damage card, so the system's own apply buttons are on it. A GM selects or targets the tokens and applies the damage or healing, as with any dnd5e roll, including half and double damage.
 
-![Damage card]({{ '/assets/img/damage-card.png' | relative_url }})
+{% include screenshot.html src="damage-card.png" alt="Damage card" %}
 
 Without PRO the same roll arrives as a plain roll card, without the apply buttons.
 

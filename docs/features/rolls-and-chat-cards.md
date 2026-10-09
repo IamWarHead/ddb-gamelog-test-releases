@@ -13,7 +13,7 @@ This is a test build. It may break. If rolls look wrong or do not arrive, please
 
 When someone rolls on D&D Beyond in your connected campaign, the roll appears as a card in Foundry chat.
 
-![A roll card in Foundry chat]({{ '/assets/img/rolls-card.png' | relative_url }})
+{% include screenshot.html src="rolls-card.png" alt="A roll card in Foundry chat" %}
 
 ## What you get
 
@@ -32,7 +32,7 @@ When someone rolls on D&D Beyond in your connected campaign, the roll appears as
 
 While a roll is still being made, Foundry shows a pending ("rolling…") card. When the roll is done, the card shows the result and the breakdown of the dice. (Free)
 
-![Pending card]({{ '/assets/img/pending-card.png' | relative_url }})
+{% include screenshot.html src="pending-card.png" alt="Pending card" %}
 
 ## Who sees a roll
 

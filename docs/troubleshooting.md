@@ -10,7 +10,7 @@ This is a test build. Some problems are bugs. If nothing here helps, report it, 
 
 Before you report a problem, open **Gamelog Config → Debug panel** and use **Copy support report**. It contains no cookies, keys or tokens. Paste it into your report.
 
-![Debug panel]({{ '/assets/img/debug-panel.png' | relative_url }})
+{% include screenshot.html src="debug-panel.png" alt="Debug panel" %}
 
 ## It does not connect
 

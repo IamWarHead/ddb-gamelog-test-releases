@@ -17,7 +17,7 @@ This is a test build, and this feature is experimental on top of that. It works,
 
 The GM can load a D&D Beyond encounter into Foundry's combat tracker. Initiative, turns, rounds and monster hit points then follow the DM's combat tracker on D&D Beyond.
 
-![Combat tracker]({{ '/assets/img/combat-tracker.png' | relative_url }})
+{% include screenshot.html src="combat-tracker.png" alt="Combat tracker" %}
 
 ## Turn it on
 

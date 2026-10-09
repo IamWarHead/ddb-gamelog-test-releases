@@ -25,7 +25,7 @@ Only public rolls are posted. Rolls that stay private on D&D Beyond (to DM or to
 2. In Foundry, open **Gamelog Config → Integrations → Discord**.
 3. Paste the webhook URL and save.
 
-![Discord settings]({{ '/assets/img/discord-config.png' | relative_url }})
+{% include screenshot.html src="discord-config.png" alt="Discord settings" %}
 
 {: .note }
 A webhook URL lets anyone post to your channel. Do not share it and do not show it in screenshots.

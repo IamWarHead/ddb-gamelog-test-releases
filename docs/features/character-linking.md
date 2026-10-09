@@ -24,7 +24,7 @@ Character linking tells Gamelog which Foundry actor belongs to which D&D Beyond 
 2. In the **Character linking** section, find the actor.
 3. Enter the **D&D Beyond character id**. It is the number at the end of the character's address on D&D Beyond: for `https://www.dndbeyond.com/characters/12345678` the id is `12345678`.
 
-![Character linking page]({{ '/assets/img/character-linking.png' | relative_url }})
+{% include screenshot.html src="character-linking.png" alt="Character linking page" %}
 
 The list shows each actor, its character id and how it was linked: manual, ddb-importer or not linked.
 

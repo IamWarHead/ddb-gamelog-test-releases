@@ -30,7 +30,7 @@ This is a test build. It may break your game session. Do not try it right before
 {: .note }
 This URL always points at the newest test build, so keep it: you need it once, and Foundry finds every later test release through it.
 
-![Foundry install dialog with the manifest URL]({{ '/assets/img/install-manifest.png' | relative_url }})
+{% include screenshot.html src="install-manifest.png" alt="Foundry install dialog with the manifest URL" %}
 
 Next: [First steps]({% link first-steps.md %}).
 

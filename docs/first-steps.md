@@ -10,7 +10,7 @@ You do these steps once, as the GM, in the browser you normally use for Foundry.
 {: .warning }
 This is a test build. If a step does not work as described, that may be a bug. Please report it, see [Feedback]({% link feedback.md %}).
 
-![Connection page]({{ '/assets/img/connection.png' | relative_url }})
+{% include screenshot.html src="connection.png" alt="Connection page" %}
 
 ## 1. Log in to D&D Beyond with your cobalt cookie
 
@@ -25,7 +25,7 @@ To copy it:
 5. Copy the value of `CobaltSession`.
 6. In Gamelog Config → Connection, paste it into the cobalt cookie field and click **Connect**.
 
-![Cobalt cookie in the browser developer tools]({{ '/assets/img/cobalt-cookie.png' | relative_url }})
+{% include screenshot.html src="cobalt-cookie.png" alt="Cobalt cookie in the browser developer tools" %}
 
 {: .note }
 The cookie is stored only in this GM browser. It is never sent to your players and never shared. Treat it like a password: do not post it in Discord or in a screenshot.
@@ -38,7 +38,7 @@ After you log in, your D&D Beyond campaigns appear on the Connection page. Pick 
 
 If your campaign is not listed, use **Reload the list**, or paste the campaign link instead.
 
-![Campaign picker]({{ '/assets/img/campaign-picker.png' | relative_url }})
+{% include screenshot.html src="campaign-picker.png" alt="Campaign picker" %}
 
 A Foundry world belongs to the first D&D Beyond account that connects it. If you connect a world that another account connected first, see [Troubleshooting]({% link troubleshooting.md %}#this-world-is-registered-to-another-dd-beyond-account).
 
@@ -48,7 +48,7 @@ Linking Patreon unlocks Basic, PRO or MAX features in this world. You can skip t
 
 On the Connection page, use the membership section to log in with Patreon. When it works, the page shows that the world is linked to your membership and its tier. Changes on Patreon apply within seconds.
 
-![Patreon link]({{ '/assets/img/patreon-link.png' | relative_url }})
+{% include screenshot.html src="patreon-link.png" alt="Patreon link" %}
 
 ## 4. Join the test {#join-the-test}
 
@@ -65,7 +65,7 @@ Who can join and for how long depends on the phase:
 | Open beta | November 9–15, 2026 | Anyone, no Patreon membership needed | 3 days | Gamelog PRO features |
 
 The open beta does not need a Patreon tier.
-![Join the test]({{ '/assets/img/test-phase.png' | relative_url }})
+{% include screenshot.html src="test-phase.png" alt="Join the test" %}
 
 When your access runs out, your world falls back to the tier of your own Patreon membership. While a closed phase runs, that means the server stops sending rolls until you have access again. You cannot join the same phase twice, but every new phase, and every new wave of testers inside a phase, lets you join again.
 

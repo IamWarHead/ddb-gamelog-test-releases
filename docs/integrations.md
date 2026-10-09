@@ -10,7 +10,7 @@ This is a test build. Integrations with other modules can break when either modu
 
 Gamelog works with other Foundry modules. Install and enable the other module in your world first, then check **Gamelog Config → Integrations**, which lists the modules it found.
 
-![Integrations page]({{ '/assets/img/integrations.png' | relative_url }})
+{% include screenshot.html src="integrations.png" alt="Integrations page" %}
 
 | Module | What it does with Gamelog | Tier |
 | --- | --- | --- |

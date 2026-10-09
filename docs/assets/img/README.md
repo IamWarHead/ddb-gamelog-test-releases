@@ -1,6 +1,6 @@
 # Screenshots
 
-Pages include the images below via `{{ '/assets/img/<name>.png' | relative_url }}`. Add the files here as PNG with exactly these names. Until a file exists, the page shows a broken image.
+Pages include the images below via `{% include screenshot.html src="<name>.png" alt="…" %}`. Add the files here as PNG with exactly these names. Until a file exists, the page simply leaves the image out.
 
 | File | What to capture | Used on |
 | --- | --- | --- |
