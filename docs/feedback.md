@@ -28,8 +28,23 @@ The channel links only open once you are on the server.
 - What you did, step by step.
 - What happened.
 - What you expected to happen.
+- Any red error from the browser console, see below.
 
 Foundry shows the Foundry and system versions at the bottom of the **Game Settings** sidebar tab.
+
+## Errors in the browser console
+
+Foundry runs in your browser, so most problems leave a message there. It is the single most useful thing you can send.
+
+1. Press **F12** in the browser window that runs Foundry. On a Mac use **⌥⌘I** (Chrome, Edge) or **⌥⌘C** (Safari, after enabling the Develop menu).
+2. Open the **Console** tab.
+3. Reproduce the problem.
+4. Copy the red lines, especially any that mention `ddb-game-log`.
+
+A screenshot of the console works too. Keep the whole message, not only its first line: the part below it says where the error came from.
+
+{: .note }
+The console may also show errors from Foundry itself and from other modules. Send what you see, we sort it out.
 
 ## Easy way
 
@@ -44,5 +59,7 @@ Do not post any of these in Discord, in screenshots or anywhere else:
 - Your cobalt cookie (`CobaltSession`).
 - A Discord webhook URL.
 - Your email address.
+
+The console prints network requests as well, so check a console screenshot for these before you post it.
 
 Screenshots help a lot. Check them before you post.

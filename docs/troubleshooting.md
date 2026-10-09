@@ -10,6 +10,8 @@ This is a test build. Some problems are bugs. If nothing here helps, report it, 
 
 Before you report a problem, open **Gamelog Config → Debug panel** and use **Copy support report**. It contains no cookies, keys or tokens. Paste it into your report.
 
+Then press **F12** in the browser that runs Foundry and look at the **Console** tab. Red lines there usually say what went wrong, and they belong in your report, see [Feedback]({{ '/feedback.html' | relative_url }}#errors-in-the-browser-console).
+
 {% include screenshot.html src="debug-panel.png" alt="Debug panel" %}
 
 ## It does not connect
