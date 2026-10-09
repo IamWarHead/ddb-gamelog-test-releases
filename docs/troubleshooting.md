@@ -6,7 +6,7 @@ nav_order: 7
 # Troubleshooting
 
 {: .warning }
-This is a test build. Some problems are bugs. If nothing here helps, report it, see [Feedback]({% link feedback.md %}).
+This is a test build. Some problems are bugs. If nothing here helps, report it, see [Feedback]({{ '/feedback.html' | relative_url }}).
 
 Before you report a problem, open **Gamelog Config → Debug panel** and use **Copy support report**. It contains no cookies, keys or tokens. Paste it into your report.
 
@@ -18,15 +18,15 @@ Open **Gamelog Config → Connection** and read the message. Common ones:
 
 | Message says | What to do |
 | --- | --- |
-| The server is in a closed test | Click **Join the test**, see [First steps]({% link first-steps.md %}#join-the-test). |
+| The server is in a closed test | Click **Join the test**, see [First steps]({{ '/first-steps.html' | relative_url }}#join-the-test). |
 | D&D Beyond rejected the cobalt cookie | Log in on dndbeyond.com again and copy a fresh `CobaltSession` value. |
 | D&D Beyond refused the campaign | Check that you picked the right campaign and that your account is its DM. |
 | The Gamelog server is not reachable | Try again in a few minutes. If it stays like this, ask on [Discord](https://discord.com/invite/HSTtrphyFg). |
-| This module version is no longer supported | Update the module, see [Install]({% link install.md %}#update). |
+| This module version is no longer supported | Update the module, see [Install]({{ '/install.html' | relative_url }}#update). |
 | Your membership is already used by another D&D Beyond account | Ask on Discord. |
 | This installation is blocked | Contact support on Discord. |
 
-If none of these fits, check that you meet the [requirements]({% link install.md %}#requirements).
+If none of these fits, check that you meet the [requirements]({{ '/install.html' | relative_url }}#requirements).
 
 ## Rolls do not arrive
 
@@ -36,8 +36,8 @@ Check these in order:
 2. You picked the right campaign.
 3. A GM browser is relaying. Only one GM browser relays at a time. The **Overview** page tells you whether this browser or another GM's browser relays. If another GM relays, rolls arrive through that browser.
 4. The roll is not private. Rolls sent to the DM or to self on D&D Beyond stay private in Foundry.
-5. The roll type is in your tier. Monster rolls and rolls from the D&D Beyond player app need PRO, see [Tiers]({% link tiers.md %}).
-6. The character is linked, see [Character linking]({% link features/character-linking.md %}).
+5. The roll type is in your tier. Monster rolls and rolls from the D&D Beyond player app need PRO, see [Tiers]({{ '/tiers.html' | relative_url }}).
+6. The character is linked, see [Character linking]({{ '/features/character-linking.html' | relative_url }}).
 
 If you changed your Patreon membership, the change arrives within seconds and the Connection page updates itself. If your tier still looks wrong a minute later, reload Foundry.
 
@@ -49,7 +49,7 @@ If you changed your Patreon membership, the change arrives within seconds and th
 
 A link you made by hand always wins: ddb-importer never overwrites it. If you want to ignore ddb-importer's ids altogether, turn off **Match ddb-importer actors** on the **Characters** page.
 
-See [Character linking]({% link features/character-linking.md %}).
+See [Character linking]({{ '/features/character-linking.html' | relative_url }}).
 
 ## This world is registered to another D&D Beyond account {#this-world-is-registered-to-another-dd-beyond-account}
 

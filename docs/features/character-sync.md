@@ -9,7 +9,7 @@ nav_order: 4
 **Tier:** PRO.
 
 {: .warning }
-This is a test build. Changing actors automatically can go wrong. Back up important actors first and report problems, see [Feedback]({% link feedback.md %}).
+This is a test build. Changing actors automatically can go wrong. Back up important actors first and report problems, see [Feedback]({{ '/feedback.html' | relative_url }}).
 
 Character sync keeps your Foundry actors up to date with what happens on D&D Beyond, and lets you act on a roll from the chat card.
 
@@ -18,7 +18,7 @@ Character sync keeps your Foundry actors up to date with what happens on D&D Bey
 | Live character and condition updates | PRO |
 | Apply damage and healing from cards | PRO |
 
-Characters must be [linked]({% link features/character-linking.md %}) first.
+Characters must be [linked]({{ '/features/character-linking.html' | relative_url }}) first.
 
 ## Live character and condition updates
 
@@ -38,4 +38,4 @@ Without PRO the same roll arrives as a plain roll card, without the apply button
 
 ## Midi-QoL
 
-If you use Midi-QoL, see [Integrations]({% link integrations.md %}#midi-qol-experimental).
+If you use Midi-QoL, see [Integrations]({{ '/integrations.html' | relative_url }}#midi-qol-experimental).

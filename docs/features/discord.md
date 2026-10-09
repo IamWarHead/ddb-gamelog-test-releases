@@ -9,7 +9,7 @@ nav_order: 5
 **Tier:** PRO.
 
 {: .warning }
-This is a test build. It may break. Please report problems, see [Feedback]({% link feedback.md %}).
+This is a test build. It may break. Please report problems, see [Feedback]({{ '/feedback.html' | relative_url }}).
 
 Gamelog can post public rolls to a Discord channel.
 
@@ -32,7 +32,7 @@ A webhook URL lets anyone post to your channel. Do not share it and do not show 
 
 ## Who can change it
 
-A Foundry world belongs to the first D&D Beyond account that connected it. Other accounts can still relay rolls, but cannot use or change the world's Discord webhook. See [Troubleshooting]({% link troubleshooting.md %}#this-world-is-registered-to-another-dd-beyond-account).
+A Foundry world belongs to the first D&D Beyond account that connected it. Other accounts can still relay rolls, but cannot use or change the world's Discord webhook. See [Troubleshooting]({{ '/troubleshooting.html' | relative_url }}#this-world-is-registered-to-another-dd-beyond-account).
 
 ## If you delete the webhook
 

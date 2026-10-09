@@ -9,7 +9,7 @@ nav_order: 1
 **Tier:** Free, with some parts in Basic and PRO (listed below).
 
 {: .warning }
-This is a test build. It may break. If rolls look wrong or do not arrive, please report it, see [Feedback]({% link feedback.md %}).
+This is a test build. It may break. If rolls look wrong or do not arrive, please report it, see [Feedback]({{ '/feedback.html' | relative_url }}).
 
 When someone rolls on D&D Beyond in your connected campaign, the roll appears as a card in Foundry chat.
 
@@ -66,5 +66,5 @@ Rolls made on the D&D Beyond website are free. Rolls made in the D&D Beyond mobi
 
 ## Good to know
 
-- Only one GM browser relays rolls at a time. See [First steps]({% link first-steps.md %}).
-- Rolls land on the right actor only when characters are linked, see [Character linking]({% link features/character-linking.md %}).
+- Only one GM browser relays rolls at a time. See [First steps]({{ '/first-steps.html' | relative_url }}).
+- Rolls land on the right actor only when characters are linked, see [Character linking]({{ '/features/character-linking.html' | relative_url }}).

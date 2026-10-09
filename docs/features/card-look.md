@@ -9,7 +9,7 @@ nav_order: 2
 **Tier:** Basic.
 
 {: .warning }
-This is a test build. Looks may change between releases and may break. Please report problems, see [Feedback]({% link feedback.md %}).
+This is a test build. Looks may change between releases and may break. Please report problems, see [Feedback]({{ '/feedback.html' | relative_url }}).
 
 You can change how roll cards look in Foundry chat.
 
@@ -45,4 +45,4 @@ The **Avatar** setting on the same page decides which picture a card shows: the 
 
 ## Without Basic
 
-Without a Basic membership the cards still work: they use Foundry's standard chat card look and Foundry's actor art, and the theme and avatar settings stay locked. See [Tiers]({% link tiers.md %}).
+Without a Basic membership the cards still work: they use Foundry's standard chat card look and Foundry's actor art, and the theme and avatar settings stay locked. See [Tiers]({{ '/tiers.html' | relative_url }}).

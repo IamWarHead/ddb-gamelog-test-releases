@@ -9,7 +9,7 @@ nav_order: 3
 **Tier:** Free for manual linking and initiative tracking. Basic for automatic linking of ddb-importer characters.
 
 {: .warning }
-This is a test build. Links may be wrong or may break. Please report problems, see [Feedback]({% link feedback.md %}).
+This is a test build. Links may be wrong or may break. Please report problems, see [Feedback]({{ '/feedback.html' | relative_url }}).
 
 Character linking tells Gamelog which Foundry actor belongs to which D&D Beyond character. Without a link, Gamelog cannot put a roll on the right actor.
 
@@ -30,14 +30,14 @@ The list shows each actor, its character id and how it was linked: manual, ddb-i
 
 ## Automatic linking with ddb-importer (Basic)
 
-Actors imported with [ddb-importer]({% link integrations.md %}#ddb-importer) are linked automatically. You do not have to enter ids.
+Actors imported with [ddb-importer]({{ '/integrations.html' | relative_url }}#ddb-importer) are linked automatically. You do not have to enter ids.
 
 ## Initiative tracking (Free)
 
 When someone rolls initiative on D&D Beyond, Gamelog writes that result onto the linked actor's combatant in the current Foundry combat. It fills a combatant that has no initiative yet, and asks before replacing one that already has a value. Both can be changed on the **Characters** page.
 
-While a D&D Beyond encounter is loaded in the [combat tracker]({% link features/combat-tracker.md %}), initiative comes from that encounter instead, and these settings are switched off.
+While a D&D Beyond encounter is loaded in the [combat tracker]({{ '/features/combat-tracker.html' | relative_url }}), initiative comes from that encounter instead, and these settings are switched off.
 
 ## Wrong character linked?
 
-See [Troubleshooting]({% link troubleshooting.md %}#the-wrong-character-is-linked).
+See [Troubleshooting]({{ '/troubleshooting.html' | relative_url }}#the-wrong-character-is-linked).

@@ -8,7 +8,7 @@ nav_order: 3
 You do these steps once, as the GM, in the browser you normally use for Foundry. Open **Game Settings → Configure Settings → D&D Beyond Gamelog → Open Gamelog Config** and go to the **Connection** page.
 
 {: .warning }
-This is a test build. If a step does not work as described, that may be a bug. Please report it, see [Feedback]({% link feedback.md %}).
+This is a test build. If a step does not work as described, that may be a bug. Please report it, see [Feedback]({{ '/feedback.html' | relative_url }}).
 
 {% include screenshot.html src="connection.png" alt="Connection page" %}
 
@@ -40,11 +40,11 @@ If your campaign is not listed, use **Reload the list**, or paste the campaign l
 
 {% include screenshot.html src="campaign-picker.png" alt="Campaign picker" %}
 
-A Foundry world belongs to the first D&D Beyond account that connects it. If you connect a world that another account connected first, see [Troubleshooting]({% link troubleshooting.md %}#this-world-is-registered-to-another-dd-beyond-account).
+A Foundry world belongs to the first D&D Beyond account that connects it. If you connect a world that another account connected first, see [Troubleshooting]({{ '/troubleshooting.html' | relative_url }}#this-world-is-registered-to-another-dd-beyond-account).
 
 ## 3. Link Patreon {#link-patreon}
 
-Linking Patreon unlocks Basic, PRO or MAX features in this world. You can skip this step: the Free tier works without it, see [Tiers]({% link tiers.md %}).
+Linking Patreon unlocks Basic, PRO or MAX features in this world. You can skip this step: the Free tier works without it, see [Tiers]({{ '/tiers.html' | relative_url }}).
 
 On the Connection page, use the membership section to log in with Patreon. When it works, the page shows that the world is linked to your membership and its tier. Changes on Patreon apply within seconds.
 
@@ -71,8 +71,8 @@ When your access runs out, your world falls back to the tier of your own Patreon
 
 ## 5. Link your characters
 
-Your players' characters should be linked to their D&D Beyond characters, so rolls land on the right actor. See [Character linking]({% link features/character-linking.md %}).
+Your players' characters should be linked to their D&D Beyond characters, so rolls land on the right actor. See [Character linking]({{ '/features/character-linking.html' | relative_url }}).
 
 ## Check that it works
 
-Roll something on D&D Beyond in the campaign you picked. A card should appear in Foundry chat. If not, see [Troubleshooting]({% link troubleshooting.md %}).
+Roll something on D&D Beyond in the campaign you picked. A card should appear in Foundry chat. If not, see [Troubleshooting]({{ '/troubleshooting.html' | relative_url }}).

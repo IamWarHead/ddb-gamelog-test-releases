@@ -6,14 +6,14 @@ nav_order: 2
 # Install the test build
 
 {: .warning }
-This is a test build. It may break your game session. Do not try it right before a session you cannot afford to lose, and report problems, see [Feedback]({% link feedback.md %}).
+This is a test build. It may break your game session. Do not try it right before a session you cannot afford to lose, and report problems, see [Feedback]({{ '/feedback.html' | relative_url }}).
 
 ## Requirements
 
 - Foundry VTT v13 or newer (v13 is the minimum, v14 is verified).
 - Game system dnd5e 5.0.0 or newer.
 - A D&D Beyond account that is the DM of the campaign you want to connect.
-- A Patreon membership if you want features above the Free tier, see [Tiers]({% link tiers.md %}).
+- A Patreon membership if you want features above the Free tier, see [Tiers]({{ '/tiers.html' | relative_url }}).
 
 ## Install
 
@@ -32,11 +32,11 @@ This URL always points at the newest test build, so keep it: you need it once, a
 
 {% include screenshot.html src="install-manifest.png" alt="Foundry install dialog with the manifest URL" %}
 
-Next: [First steps]({% link first-steps.md %}).
+Next: [First steps]({{ '/first-steps.html' | relative_url }}).
 
 ## Update
 
-Test builds are updated often. To update, open **Add-on Modules** in Foundry and update **D&D Beyond Gamelog** like any other module. You do not need the manifest URL again, and you do not need to uninstall anything. Check the [Changelog]({% link changelog.md %}) to see what changed.
+Test builds are updated often. To update, open **Add-on Modules** in Foundry and update **D&D Beyond Gamelog** like any other module. You do not need the manifest URL again, and you do not need to uninstall anything. Check the [Changelog]({{ '/changelog.html' | relative_url }}) to see what changed.
 
 The module shows its build channel (TEST) and version on its Debug page: **Gamelog Config → Debug panel**.
 

@@ -8,7 +8,7 @@ nav_order: 6
 Gamelog features depend on your Patreon membership.
 
 {: .warning }
-This is a test build. Tiers and what belongs to them may change before release. Please report problems, see [Feedback]({% link feedback.md %}).
+This is a test build. Tiers and what belongs to them may change before release. Please report problems, see [Feedback]({{ '/feedback.html' | relative_url }}).
 
 | Tier | Price |
 | --- | --- |
@@ -47,7 +47,7 @@ Each tier includes everything in the tiers below it. Gamelog MAX has the same fe
 
 Join on [Patreon](https://www.patreon.com/iamwarhead/).
 
-Then link Patreon to your world on the Connection page, see [First steps]({% link first-steps.md %}#link-patreon). Changes on Patreon apply within seconds.
+Then link Patreon to your world on the Connection page, see [First steps]({{ '/first-steps.html' | relative_url }}#link-patreon). Changes on Patreon apply within seconds.
 
 ## During the test
 
@@ -57,4 +57,4 @@ When you join the test, the Connection page shows your tier and how many days yo
 - Closed beta: you get your own tier, and at least the PRO features, for 7 days.
 - Open beta: you get the Gamelog PRO features for 3 days, even without a Patreon tier.
 
-Dates and who can join are on the [Home]({% link index.md %}#current-test-phase) page.
+Dates and who can join are on the [Home]({{ '/' | relative_url }}#current-test-phase) page.

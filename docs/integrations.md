@@ -6,7 +6,7 @@ nav_order: 5
 # Integrations
 
 {: .warning }
-This is a test build. Integrations with other modules can break when either module updates. Please report problems, see [Feedback]({% link feedback.md %}).
+This is a test build. Integrations with other modules can break when either module updates. Please report problems, see [Feedback]({{ '/feedback.html' | relative_url }}).
 
 Gamelog works with other Foundry modules. Install and enable the other module in your world first, then check **Gamelog Config → Integrations**, which lists the modules it found.
 
@@ -26,7 +26,7 @@ Tested with Midi-QoL 13.0.66 and ddb-importer 7.5.7, on Foundry v14.368 with dnd
 **Needs:** the ddb-importer module, and actors imported with it.
 **Tier:** Basic.
 
-Actors imported by ddb-importer are linked to their D&D Beyond character automatically. See [Character linking]({% link features/character-linking.md %}).
+Actors imported by ddb-importer are linked to their D&D Beyond character automatically. See [Character linking]({{ '/features/character-linking.html' | relative_url }}).
 
 ## Midi-QoL (experimental) {#midi-qol-experimental}
 

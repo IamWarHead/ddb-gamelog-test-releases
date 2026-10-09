@@ -9,7 +9,7 @@ nav_order: 6
 **Tier:** PRO. **Status:** experimental.
 
 {: .warning }
-This is a test build, and this feature is experimental on top of that. It works, but it may change or break in any release. Please report problems, see [Feedback]({% link feedback.md %}).
+This is a test build, and this feature is experimental on top of that. It works, but it may change or break in any release. Please report problems, see [Feedback]({{ '/feedback.html' | relative_url }}).
 
 | What | Tier |
 | --- | --- |
@@ -59,8 +59,8 @@ Other combats on the scene are only deleted after you confirm it.
 ## Known limits
 
 - One direction only: D&D Beyond changes Foundry. What you change in Foundry is overwritten on the next update and never sent back to D&D Beyond.
-- Only combatants whose token is on the scene you are viewing are added. Players need a [linked character]({% link features/character-linking.md %}); monsters are matched through [ddb-importer]({% link integrations.md %}#ddb-importer) and only when their token is already placed. Gamelog tells you who was left out.
-- Monster hit points follow D&D Beyond; conditions on monsters do not, because D&D Beyond does not store them in the encounter. Conditions on player characters come from [Character sync]({% link features/character-sync.md %}).
+- Only combatants whose token is on the scene you are viewing are added. Players need a [linked character]({{ '/features/character-linking.html' | relative_url }}); monsters are matched through [ddb-importer]({{ '/integrations.html' | relative_url }}#ddb-importer) and only when their token is already placed. Gamelog tells you who was left out.
+- Monster hit points follow D&D Beyond; conditions on monsters do not, because D&D Beyond does not store them in the encounter. Conditions on player characters come from [Character sync]({{ '/features/character-sync.html' | relative_url }}).
 - Changes arrive in a few seconds, not instantly.
 - While an encounter is loaded, initiative rolls from the game log are not written to the tracker; the encounter is the only source of initiative.
 - If you delete the encounter on D&D Beyond, mirroring stops and Gamelog tells you.

@@ -8,15 +8,15 @@ permalink: /features/
 # Features
 
 {: .warning }
-Everything on these pages describes a test build. It may break, and some parts are experimental. Please report problems, see [Feedback]({% link feedback.md %}).
+Everything on these pages describes a test build. It may break, and some parts are experimental. Please report problems, see [Feedback]({{ '/feedback.html' | relative_url }}).
 
-Each page states the membership tier it needs. The full list is on the [Tiers]({% link tiers.md %}) page.
+Each page states the membership tier it needs. The full list is on the [Tiers]({{ '/tiers.html' | relative_url }}) page.
 
 | Page | Tier |
 | --- | --- |
-| [Rolls and chat cards]({% link features/rolls-and-chat-cards.md %}) | Free, with some parts in Basic and PRO |
-| [Card look]({% link features/card-look.md %}) | Basic |
-| [Character linking]({% link features/character-linking.md %}) | Free, automatic linking in Basic |
-| [Character sync]({% link features/character-sync.md %}) | PRO |
-| [Discord]({% link features/discord.md %}) | PRO |
-| [Combat tracker (experimental)]({% link features/combat-tracker.md %}) | PRO |
+| [Rolls and chat cards]({{ '/features/rolls-and-chat-cards.html' | relative_url }}) | Free, with some parts in Basic and PRO |
+| [Card look]({{ '/features/card-look.html' | relative_url }}) | Basic |
+| [Character linking]({{ '/features/character-linking.html' | relative_url }}) | Free, automatic linking in Basic |
+| [Character sync]({{ '/features/character-sync.html' | relative_url }}) | PRO |
+| [Discord]({{ '/features/discord.html' | relative_url }}) | PRO |
+| [Combat tracker (experimental)]({{ '/features/combat-tracker.html' | relative_url }}) | PRO |
