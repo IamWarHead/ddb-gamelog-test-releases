@@ -56,11 +56,24 @@ If you load an encounter whose combat is still in Foundry's tracker, for example
 
 Other combats on the scene are only deleted after you confirm it.
 
+## Why it is not instant
+
+Expect a few seconds between pressing **Next** on D&D Beyond and seeing the turn change in Foundry. That is normal, and it is not your connection.
+
+Two waits add up:
+
+1. **D&D Beyond saves on a timer.** Their combat tracker does not store every click right away; it waits a few seconds and then writes the encounter. Until that happens, the change does not exist anywhere outside the DM's own browser.
+2. **Gamelog reads the saved encounter.** Only once D&D Beyond has saved can we see the change and send it to Foundry.
+
+So a turn usually appears in Foundry around 3 to 5 seconds after you press the button, sometimes a little more.
+
+There is no setting for this and nothing to tune. D&D Beyond offers no live feed for the combat tracker, so reading the saved encounter is the only way, and their save timer sets the floor. If you ever see a delay far longer than that, tell us, because that is a different problem.
+
 ## Known limits
 
 - One direction only: D&D Beyond changes Foundry. What you change in Foundry is overwritten on the next update and never sent back to D&D Beyond.
 - Only combatants whose token is on the scene you are viewing are added. Players need a [linked character]({{ '/features/character-linking.html' | relative_url }}); monsters are matched through [ddb-importer]({{ '/integrations.html' | relative_url }}#ddb-importer) and only when their token is already placed. Gamelog tells you who was left out.
 - Monster hit points follow D&D Beyond; conditions on monsters do not, because D&D Beyond does not store them in the encounter. Conditions on player characters come from [Character sync]({{ '/features/character-sync.html' | relative_url }}).
-- Changes arrive in a few seconds, not instantly.
+- Changes arrive a few seconds after D&D Beyond saves them, not instantly, see [Why it is not instant](#why-it-is-not-instant).
 - While an encounter is loaded, initiative rolls from the game log are not written to the tracker; the encounter is the only source of initiative.
 - If you delete the encounter on D&D Beyond, mirroring stops and Gamelog tells you.
