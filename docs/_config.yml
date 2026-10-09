@@ -7,6 +7,13 @@ remote_theme: just-the-docs/just-the-docs
 plugins:
   - jekyll-remote-theme
 
+# Without this every page renders as bare HTML, with no theme and no stylesheet.
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
 search_enabled: true
 heading_anchors: true
 back_to_top: true
