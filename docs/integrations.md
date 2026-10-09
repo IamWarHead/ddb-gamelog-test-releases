@@ -19,7 +19,7 @@ Gamelog works with other Foundry modules. Install and enable the other module in
 | [Dice So Nice](#dice-so-nice) | 3D dice for D&D Beyond rolls | PRO |
 | [JB2A + Automated Animations](#jb2a--automated-animations) | Attack and spell animations on the targets | PRO |
 
-Tested with Midi-QoL 13.0.66 and ddb-importer 7.5.7, on Foundry v14.368 with dnd5e 6.0.5 and on Foundry v13.351 with dnd5e 5.3.3. Other recent versions usually work; tell us when one does not.
+Tested with Midi-QoL 13.0.66 and ddb-importer 7.5.7, on Foundry v14.369 with dnd5e 6.0.6 and on Foundry v13.351 with dnd5e 5.3.3. Other recent versions usually work; tell us when one does not.
 
 ## ddb-importer {#ddb-importer}
 
