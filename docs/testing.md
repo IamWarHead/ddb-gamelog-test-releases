@@ -75,6 +75,7 @@ Nobody can cover everything. This matrix says which combinations matter most, so
 
 ## 1. Install and update
 
+- If the stable v2 module is installed, uninstall it first, see [Install]({{ '/install.html' | relative_url }}#uninstall-version-2-first).
 - Install from the manifest URL, enable the module, open a world.
 - **Expect**: no red errors in the browser console (F12), and **Gamelog Config** opens from Game Settings.
 - Update to a newer test build when one arrives, then reopen the world.

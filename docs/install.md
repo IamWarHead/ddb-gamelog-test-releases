@@ -15,6 +15,19 @@ This is a test build. It may break your game session. Do not try it right before
 - A D&D Beyond account that is the DM of the campaign you want to connect.
 - A Patreon membership if you want features above the Free tier, see [Tiers]({{ '/tiers.html' | relative_url }}).
 
+## Uninstall version 2 first
+
+The test build and the stable v2 module share the same module id, so Foundry can hold only one of them at a time. If **D&D Beyond Gamelog** is already installed from the module browser, remove it before you install the test build.
+
+1. Close your world, so no world has the module active.
+2. In **Add-on Modules**, find **D&D Beyond Gamelog** and uninstall it.
+3. Restart Foundry if it still lists the old version.
+
+Uninstalling does not touch your world. Your v2 settings and character links stay in it, and the test build reads them once when it first starts. Going back later is just as easy, see [Go back to the stable v2 module](#go-back-to-the-stable-v2-module).
+
+{: .warning }
+Do not try to install the test build over v2 without uninstalling. Foundry may keep the old files, and you end up with a module that half updates and fails in ways nobody can reproduce.
+
 ## Install
 
 1. In Foundry, open **Add-on Modules** and click **Install Module**.

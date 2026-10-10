@@ -83,6 +83,8 @@ Log in with Patreon again on the **Connection** page. One click is enough, and y
 
 If you had a Discord webhook (PRO), it belongs to the old identifier and has to be set again in **Gamelog Config → Integrations → Discord**, see [Discord]({{ '/features/discord.html' | relative_url }}).
 
+If the module behaves oddly in other ways after the upgrade, check that v2 was properly uninstalled first, see [Install]({{ '/install.html' | relative_url }}#uninstall-version-2-first).
+
 ## The wrong character is linked {#the-wrong-character-is-linked}
 
 1. Open **Gamelog Config → Characters**.
