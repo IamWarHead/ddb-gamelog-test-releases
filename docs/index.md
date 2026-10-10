@@ -48,6 +48,7 @@ You join from inside Foundry: on the **Connection** page of Gamelog Config, clic
 - [Integrations]({{ '/integrations.html' | relative_url }}): ddb-importer, Midi-QoL, Dice So Nice, JB2A and Automated Animations.
 - [Tiers]({{ '/tiers.html' | relative_url }}): which feature needs which membership.
 - [Troubleshooting]({{ '/troubleshooting.html' | relative_url }}): common problems and fixes.
+- [Testing checklist]({{ '/testing.html' | relative_url }}): what to try, and what should happen.
 - [Changelog]({{ '/changelog.html' | relative_url }}): what changed in each test release.
 
 ## Need help?
