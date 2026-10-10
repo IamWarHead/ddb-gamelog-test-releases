@@ -17,8 +17,6 @@ This is a test build, and this feature is experimental on top of that. It works,
 
 The GM can load a D&D Beyond encounter into Foundry's combat tracker. Initiative, turns, rounds and monster hit points then follow the DM's combat tracker on D&D Beyond.
 
-{% include screenshot.html src="combat-tracker.png" alt="Combat tracker" %}
-
 ## Turn it on
 
 It is on by default for PRO. The switch is **D&D Beyond combat tracker** in **Gamelog Config → Integrations → Modules**. Nothing happens until you load an encounter, so you can leave it on.
@@ -34,7 +32,11 @@ You choose the encounter yourself. Gamelog does not pick one up automatically.
 
 Open Foundry's combat tracker. Above the list there is a **Load D&D Beyond encounter** button for the GM. It opens the list of your encounters; pick one and click **Load**. The dialog also has a **Refresh** button and says how old the list is.
 
+{% include screenshot.html src="combat-tracker-1.png" alt="The encounter list in the load dialog" %}
+
 The bar then shows **D&D Beyond: ‹name›** with a **Stop** button. Stop ends the mirroring and leaves the Foundry combat as it is, as a normal Foundry combat. Deleting the combat stops the mirroring too.
+
+{% include screenshot.html src="combat-tracker-2.png" alt="A D&D Beyond encounter mirrored in the Foundry combat tracker" %}
 
 The button only works in the GM browser that relays, and only while it is connected.
 
