@@ -30,6 +30,38 @@ Open **Gamelog Config → Connection** and read the message. Common ones:
 
 If none of these fits, check that you meet the [requirements]({{ '/install.html' | relative_url }}#requirements).
 
+## Joining the test is refused {#join-refused}
+
+The test block on the **Connection** page says why:
+
+| It says | What it means |
+| --- | --- |
+| Log in with Patreon below… | Nobody knows who you are yet. Link Patreon, then press **Join the test** again. |
+| The closed alpha is open to current and former MAX patrons | Your Patreon account is not one of them. If you held MAX in the past and still see this, say so on Discord with your Patreon name. |
+| The closed beta is open to PRO and MAX patrons and to closed-alpha testers | Same, for the second phase. |
+| Your test time for this wave is over | You already tested this wave. The next wave starts with the next test build, and you can join again then. |
+| Joining is closed right now | The phase has not started yet, or it has ended. The dates are under the bar in the same block. |
+| Joining did not work, please try again | A temporary problem. Try once more; if it keeps happening, report it. |
+
+## Only one GM relays {#relaying-gm}
+
+Gamelog reads your D&D Beyond game log through **one** GM browser at a time: the one that holds the cobalt cookie. That browser is the relay, and every player in the world gets the rolls through it.
+
+The **Overview** page says whether this browser relays or another GM's does.
+
+- Close that browser, and rolls stop arriving for everyone until a GM relays again.
+- Another GM takes over by pasting their own cobalt cookie on the Connection page.
+- Two GMs can both have credentials saved; only one relays at a time.
+- Settings that live on the server, like the Discord webhook, are set from the relaying GM's browser.
+
+## ddb-importer sends everything back {#sync-echo}
+
+If you use ddb-importer's **dynamic sync** on a character that Gamelog also updates, Gamelog tells you so.
+
+Both modules then push the same change in opposite directions: Gamelog brings a change from D&D Beyond into Foundry, and ddb-importer sends it straight back. That doubles the traffic to D&D Beyond and can overwrite a newer value there.
+
+Turn one of them off for those characters: dynamic sync in the actor's ddb-importer settings, or the matching field in **Gamelog Config → Characters → Character updater**.
+
 ## Rolls do not arrive
 
 Check these in order:

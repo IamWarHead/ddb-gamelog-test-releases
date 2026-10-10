@@ -10,6 +10,46 @@ These are test builds. Each release may break things that worked before. Please 
 
 Newest first. This is a short summary for testers. Update the module in Foundry to get a release, see [Install]({{ '/install.html' | relative_url }}#update).
 
+## 3.0.0-alpha.11 (2026-10-09)
+
+Fixed:
+
+- Clicking the item on a card opens its sheet on Foundry 13 with dnd5e 5 as well, not only on Foundry 14.
+- Actions whose name carries a variant, like "Breath Weapon (Red)", find the matching item on the actor.
+- A roll whose action has no matching item is marked for the GM, so you can see why the card has no item on it.
+
+## 3.0.0-alpha.10 (2026-10-09)
+
+Fixed:
+
+- The item block inside a roll card follows the card theme instead of staying on dnd5e's own background.
+
+## 3.0.0-alpha.9 (2026-10-09)
+
+New:
+
+- [Legendary Patrons]({{ '/features/legendary-patrons.html' | relative_url }}): a page in Gamelog Config listing MAX members who chose to be on it, and those who held MAX before. Opt-in, under a name you pick.
+
+## 3.0.0-alpha.8 (2026-10-09)
+
+New:
+
+- The test block shows when joining opens, not only when it closes.
+- The feedback button only appears once you are testing or can join.
+
+## 3.0.0-alpha.7 (2026-10-09)
+
+Fixed:
+
+- **Patreon memberships are recognised again.** The server looked for the wrong campaign, so every linked account came back as Lite. Link Patreon again if your tier still looks wrong.
+- The Patreon link stays visible and can be unlinked while a test grant gives you a higher tier.
+
+## 3.0.0-alpha.6 (2026-10-09)
+
+New:
+
+- A link to this documentation on the **Debug panel** of test builds.
+
 ## 3.0.0-alpha.5 (2026-10-09)
 
 New:

@@ -18,7 +18,7 @@ You are looking at a test build. It may break. Please report problems, see [Feed
 | | |
 | --- | --- |
 | Phase | Closed alpha |
-| Current test version | 3.0.0-alpha.5 |
+| Current test version | 3.0.0-alpha.11 |
 | Foundry VTT | v13 minimum, v14 verified |
 | Game system | dnd5e 5.0.0 or newer |
 
@@ -26,7 +26,7 @@ The test runs in three phases. All dates are tentative.
 
 | Phase | Dates | Who can join | Access | You get |
 | --- | --- | --- | --- | --- |
-| Closed alpha | October 12–25, 2026 | Everyone who has Gamelog MAX now or had it at some point | 7 days | Gamelog MAX features |
+| Closed alpha | October 11–25, 2026 | Everyone who has Gamelog MAX now or had it at some point | 7 days | Gamelog MAX features |
 | Closed beta | October 26–November 8, 2026 | Everyone who has Gamelog PRO or MAX now, plus everyone who tested the closed alpha | 7 days | Your own tier, at least PRO |
 | Open beta | November 9–15, 2026 | Anyone, no Patreon membership needed | 3 days | Gamelog PRO features |
 

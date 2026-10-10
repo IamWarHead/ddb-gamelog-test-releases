@@ -42,12 +42,21 @@ Each tier includes everything in the tiers below it. Gamelog MAX has the same fe
 | Midi-QoL integration (experimental) | PRO |
 | D&D Beyond combat tracker in Foundry (experimental) | PRO |
 | Priority support, Discord roles, early access | MAX |
+| Your name in the module, on the [Legendary Patrons]({{ '/features/legendary-patrons.html' | relative_url }}) page | MAX |
 
 ## Get a membership
 
 Join on [Patreon](https://www.patreon.com/iamwarhead/).
 
 Then link Patreon to your world on the Connection page, see [First steps]({{ '/first-steps.html' | relative_url }}#link-patreon). Changes on Patreon apply within seconds.
+
+## Product keys
+
+Most people never need one. A product key is an alternative to Patreon: a code handed out for a bundle, a gift or a special case, which grants a tier without a Patreon account.
+
+If you received one, paste it into **Product key (optional)** on the **Connection** page and save. The key is kept in this browser only, so a second GM browser needs its own copy. The Connection page then shows your membership as "via product key". Leave the field empty to keep the key that is already stored.
+
+Having both a key and a Patreon link is fine: the higher of the two is what you get.
 
 ## During the test
 

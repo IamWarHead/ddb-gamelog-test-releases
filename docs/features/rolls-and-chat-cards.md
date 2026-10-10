@@ -52,6 +52,14 @@ The **Rolls & cards** page of Gamelog Config has a **Who sees rolls** section:
 
 Clicking the avatar or the name on a card selects the token and pans the canvas to it. That is free. With Basic, a GM can choose what the click does instead: open the actor sheet, open the character on D&D Beyond, or nothing. The setting is **Clicking the roller (GM)** on the **Rolls & cards** page.
 
+The choice applies to GMs only; for players the click always selects and pans to the token.
+
+## Upgrade hints
+
+The **This browser** section at the bottom of the **Rolls & cards** page has **Show upgrade hints**. It adds a muted line to a relayed card where a higher Gamelog membership would do something more, for example applying damage.
+
+Only GMs ever see these lines, never players, and the setting is remembered per browser rather than per world. Turn it off once the hints become noise.
+
 ## Item and spell links
 
 Cards link to the item or spell that was used. (PRO)
@@ -66,5 +74,5 @@ Rolls made on the D&D Beyond website are free. Rolls made in the D&D Beyond mobi
 
 ## Good to know
 
-- Only one GM browser relays rolls at a time. See [First steps]({{ '/first-steps.html' | relative_url }}).
+- Only one GM browser relays rolls at a time. See [Only one GM relays]({{ '/troubleshooting.html' | relative_url }}#relaying-gm).
 - Rolls land on the right actor only when characters are linked, see [Character linking]({{ '/features/character-linking.html' | relative_url }}).

@@ -32,9 +32,16 @@ The list shows each actor, its character id and how it was linked: manual, ddb-i
 
 Actors imported with [ddb-importer]({{ '/integrations.html' | relative_url }}#ddb-importer) are linked automatically. You do not have to enter ids.
 
+**Match ddb-importer actors** on the **Characters** page turns this on and off. A link you made by hand always wins over the imported id, so you can correct a wrong match without turning anything off. With the setting off, only manual links count.
+
 ## Initiative tracking (Free)
 
 When someone rolls initiative on D&D Beyond, Gamelog writes that result onto the linked actor's combatant in the current Foundry combat. It fills a combatant that has no initiative yet, and asks before replacing one that already has a value. Both can be changed on the **Characters** page.
+
+| Setting | What it does | Default |
+| --- | --- | --- |
+| Track initiative in combat | An initiative roll from D&D Beyond sets the mapped actor's initiative in the current combat | On |
+| Ask before replacing initiative | When the combatant already has an initiative, a dialog asks before overwriting it. Off means it is replaced silently | On |
 
 While a D&D Beyond encounter is loaded in the [combat tracker]({{ '/features/combat-tracker.html' | relative_url }}), initiative comes from that encounter instead, and these settings are switched off.
 
