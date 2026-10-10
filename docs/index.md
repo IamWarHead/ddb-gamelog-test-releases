@@ -13,6 +13,9 @@ This site is for testers of **version 3**. You are a Foundry GM or a player in a
 {: .warning }
 You are looking at a test build. It may break. Please report problems, see [Feedback]({{ '/feedback.html' | relative_url }}).
 
+{: .warning }
+**Do not test in your live campaign world.** Make a copy of it, or use a world you can afford to lose. A test build can change actors, combats and settings in ways no undo brings back, see [Use a test world]({{ '/install.html' | relative_url }}#use-a-test-world).
+
 ## Current test phase
 
 | | |

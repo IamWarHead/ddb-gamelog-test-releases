@@ -10,6 +10,9 @@ You do these steps once, as the GM, in the browser you normally use for Foundry.
 {: .warning }
 This is a test build. If a step does not work as described, that may be a bug. Please report it, see [Feedback]({{ '/feedback.html' | relative_url }}).
 
+{: .warning }
+Do this in a test world, not in your live campaign world, see [Use a test world]({{ '/install.html' | relative_url }}#use-a-test-world).
+
 {% include screenshot.html src="connection.png" alt="Connection page" %}
 
 ## 1. Log in to D&D Beyond with your cobalt cookie

@@ -15,6 +15,15 @@ This is a test build. It may break your game session. Do not try it right before
 - A D&D Beyond account that is the DM of the campaign you want to connect.
 - A Patreon membership if you want features above the Free tier, see [Tiers]({{ '/tiers.html' | relative_url }}).
 
+## Use a test world
+
+{: .warning }
+**Do not test in the world you play your campaign in.** This build writes to your actors: hit points, conditions, initiative, combats. A bug there is not something you can undo in the middle of a session.
+
+Make a copy first. In Foundry's **Game Worlds** list, open the world's menu and use **Duplicate World**, then install and test in the copy. If you host elsewhere, take whatever backup your host offers before you start.
+
+If you want to try it in a real session anyway, take a backup of the world beforehand and keep it until the session is over. Report what breaks either way, see [Feedback]({{ '/feedback.html' | relative_url }}).
+
 ## Uninstall version 2 first
 
 The test build and the stable v2 module share the same module id, so Foundry can hold only one of them at a time. If **D&D Beyond Gamelog** is already installed from the module browser, remove it before you install the test build.

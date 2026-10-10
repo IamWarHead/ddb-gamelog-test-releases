@@ -8,7 +8,7 @@ nav_order: 8
 You do not have to work through all of this. Pick what matches your table, play a session, and report what felt wrong. The list is here so nothing important goes untested, and so a report can say "step 3 of the combat tracker" instead of "it broke".
 
 {: .warning }
-This is a test build. Use a copy of your world, or a world you can afford to lose. Report problems in [Feedback]({{ '/feedback.html' | relative_url }}), with the console errors if there are any.
+This is a test build. Use a copy of your world, or a world you can afford to lose, see [Use a test world]({{ '/install.html' | relative_url }}#use-a-test-world). Never test in the world you play your campaign in. Report problems in [Feedback]({{ '/feedback.html' | relative_url }}), with the console errors if there are any.
 
 Each block says what to do and what should happen. Anything else is worth reporting, even if it looks small.
 
