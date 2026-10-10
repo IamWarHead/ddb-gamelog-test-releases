@@ -12,6 +12,67 @@ This is a test build. Use a copy of your world, or a world you can afford to los
 
 Each block says what to do and what should happen. Anything else is worth reporting, even if it looks small.
 
+## Testing matrix
+
+Nobody can cover everything. This matrix says which combinations matter most, so you can pick the row closest to your table and say which one you were on when you report something.
+
+### Foundry and system
+
+| Foundry | dnd5e | Priority | Note |
+| --- | --- | --- | --- |
+| v14 | 6.x | High | The main target. Item links and card look are tuned for it. |
+| v13 | 5.x | High | The lowest supported pair. Cards use the dnd5e 5 markup. |
+| v14 | 5.x | Medium | Worth a pass if you upgraded Foundry but not the system. |
+| v13 | 6.x | Low | Unusual, but report it if you run it. |
+| v12 or older, dnd5e 4 or older | — | Not supported | The module refuses to run, see [Install]({{ '/install.html' | relative_url }}#requirements). |
+
+### Where Foundry runs
+
+| Setup | Priority | What to watch |
+| --- | --- | --- |
+| Local Foundry, GM in Chrome or Edge | High | The baseline. |
+| Local Foundry, GM in Firefox | High | Cookie paste, dialogs, the config window. |
+| Hosted Foundry (The Forge, Molten, your own server) over HTTPS | High | The connection to the Gamelog server, and that it survives a sleep or a lost network. |
+| Foundry desktop app as GM | Medium | Logging in with Patreon opens a browser window. |
+| Safari, as GM or player | Medium | Layout of the config pages and the cards. |
+| Tablet or phone as a player | Low | Cards should be readable, nothing more is promised. |
+
+### Who you are in the world
+
+| Role | Priority | What only you can see |
+| --- | --- | --- |
+| GM whose browser relays | High | Config, test block, unmatched marks, upgrade hints, encounter loading. |
+| Second GM, not relaying | Medium | That the Overview says someone else relays, and taking over. |
+| Player | High | That private rolls stay hidden and that cards land on the right actor. |
+
+### Membership
+
+| Tier | Priority | Point of the pass |
+| --- | --- | --- |
+| Test grant (what you get during a phase) | High | Everything in the checklist below. |
+| Free, with the grant expired or before joining | Medium | Free features keep working and the rest is locked, not broken. |
+| Your own Patreon tier after the grant ends | Medium | That the tier drops back cleanly, mid-session. |
+
+### Roll sources
+
+| Source | Tier | Priority |
+| --- | --- | --- |
+| D&D Beyond website, character sheet | Free | High |
+| D&D Beyond mobile app | PRO | High |
+| Encounter builder, monster rolls | PRO | Medium |
+| Dice roller on the D&D Beyond site | Free | Medium |
+
+### Other modules
+
+| Module | Priority | Note |
+| --- | --- | --- |
+| None, Gamelog alone | High | Rules out conflicts in every other report. |
+| ddb-importer | High | Automatic linking, and the [dynamic sync warning]({{ '/troubleshooting.html' | relative_url }}#sync-echo). |
+| Dice So Nice | Medium | One roll of 3D dice, card after they land. |
+| JB2A + Automated Animations | Medium | Animation on the right targets. |
+| Midi-QoL | Low | Experimental, see [Integrations]({{ '/integrations.html' | relative_url }}#midi-qol-experimental). |
+| Your usual module list | High | If something breaks only here, send the list. |
+
 ## 1. Install and update
 
 - Install from the manifest URL, enable the module, open a world.
@@ -116,4 +177,4 @@ Coming from v2? See [the upgrade note]({{ '/troubleshooting.html' | relative_url
 
 ## What to send back
 
-The build version, Foundry and dnd5e versions, what you did, what happened, what you expected — plus the support report and any red console errors. [Feedback]({{ '/feedback.html' | relative_url }}) has the details.
+The build version, Foundry and dnd5e versions, the matrix row you were on (where Foundry runs, your role, your tier, roll source, other modules), what you did, what happened, what you expected — plus the support report and any red console errors. [Feedback]({{ '/feedback.html' | relative_url }}) has the details.
