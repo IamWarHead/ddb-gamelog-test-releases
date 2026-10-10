@@ -17,6 +17,7 @@ Pages include the images below via `{% include screenshot.html src="<name>.png" 
 | `damage-card.png` | A damage or healing card with the apply buttons | features/character-sync |
 | `discord-config.png` | Integrations page, Discord section, webhook hidden | features/discord |
 | `combat-tracker.png` | Foundry combat tracker with a loaded D&D Beyond encounter | features/combat-tracker |
+| `legendary-patrons.png` | Gamelog Config, Legendary Patrons page with a few names on the list | features/legendary-patrons |
 | `integrations.png` | Gamelog Config, Integrations page | integrations |
 | `debug-panel.png` | Gamelog Config, Debug panel | troubleshooting |
 

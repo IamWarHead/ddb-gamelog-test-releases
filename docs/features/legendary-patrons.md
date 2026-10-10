@@ -13,6 +13,8 @@ This is a test build. Please report problems, see [Feedback]({{ '/feedback.html'
 
 Gamelog Config has a **Legendary Patrons** page. It lists the people who hold Gamelog MAX and chose to be on it, together with those who held MAX before.
 
+{% include screenshot.html src="legendary-patrons.png" alt="Legendary Patrons page" %}
+
 | What | Tier |
 | --- | --- |
 | Being on the list | MAX, now or in the past |
