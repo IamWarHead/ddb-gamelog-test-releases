@@ -34,7 +34,7 @@ This URL always points at the newest test build, so keep it: you need it once, a
 
 ## Language
 
-The module follows Foundry's own language setting, under **Game Settings → Configure Settings → Core**. English is complete; Hungarian is on the way and lands in one of the next test builds. Anything not translated falls back to English.
+The module follows Foundry's own language setting, under **Game Settings → Configure Settings → Core**. English and Hungarian are available; anything not translated falls back to English.
 
 Next: [First steps]({{ '/first-steps.html' | relative_url }}).
 

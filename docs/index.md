@@ -18,7 +18,7 @@ You are looking at a test build. It may break. Please report problems, see [Feed
 | | |
 | --- | --- |
 | Phase | Closed alpha |
-| Current test version | 3.0.0-alpha.11 |
+| Current test version | 3.0.0-alpha.12 |
 | Foundry VTT | v13 minimum, v14 verified |
 | Game system | dnd5e 5.0.0 or newer |
 

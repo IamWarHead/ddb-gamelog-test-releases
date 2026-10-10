@@ -10,6 +10,18 @@ These are test builds. Each release may break things that worked before. Please 
 
 Newest first. This is a short summary for testers. Update the module in Foundry to get a release, see [Install]({{ '/install.html' | relative_url }}#update).
 
+## 3.0.0-alpha.12 (2026-10-10)
+
+New:
+
+- **Hungarian translation.** The module follows Foundry's own language setting, see [Install]({{ '/install.html' | relative_url }}#language).
+- The test block on the Connection page shows the phase as a progress bar, with the dates it opens and closes and a link to the [Testing guide]({{ '/testing.html' | relative_url }}).
+
+Fixed:
+
+- Translations other than English are shipped with the module, so they can be picked in Foundry.
+- Long options in dropdowns no longer run under the arrow.
+
 ## 3.0.0-alpha.11 (2026-10-09)
 
 Fixed:
