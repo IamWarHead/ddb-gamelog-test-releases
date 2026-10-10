@@ -14,7 +14,7 @@ Newest first. This is a short summary for testers. Update the module in Foundry 
 
 New:
 
-- **Hungarian translation.** The module follows Foundry's own language setting, see [Install]({{ '/install.html' | relative_url }}#language).
+- **Hungarian translation.** The module follows Foundry's own language setting, see [Install]({{ '/install.html' | relative_url }}#language). More languages follow, and the translation files will be opened to the community.
 - The test block on the Connection page shows the phase as a progress bar, with the dates it opens and closes and a link to the [Testing guide]({{ '/testing.html' | relative_url }}).
 
 Fixed:
