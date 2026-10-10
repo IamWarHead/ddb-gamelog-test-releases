@@ -21,7 +21,7 @@ Open **Gamelog Config → Connection** and read the message. Common ones:
 | Message says | What to do |
 | --- | --- |
 | The server is in a closed test | Click **Join the test**, see [First steps]({{ '/first-steps.html' | relative_url }}#join-the-test). |
-| D&D Beyond rejected the cobalt cookie | Log in on dndbeyond.com again and copy a fresh `CobaltSession` value. |
+| D&D Beyond rejected the cobalt cookie | Log in on dndbeyond.com again and copy a fresh `CobaltSession` value, see [below](#cobalt-expired). |
 | D&D Beyond refused the campaign | Check that you picked the right campaign and that your account is its DM. |
 | The Gamelog server is not reachable | Try again in a few minutes. If it stays like this, ask on [Discord](https://discord.com/invite/HSTtrphyFg). |
 | This module version is no longer supported | Update the module, see [Install]({{ '/install.html' | relative_url }}#update). |
@@ -74,6 +74,19 @@ Check these in order:
 6. The character is linked, see [Character linking]({{ '/features/character-linking.html' | relative_url }}).
 
 If you changed your Patreon membership, the change arrives within seconds and the Connection page updates itself. If your tier still looks wrong a minute later, reload Foundry.
+
+## The cobalt cookie stopped working {#cobalt-expired}
+
+The Connection page says D&D Beyond rejected the cobalt cookie, and rolls no longer arrive.
+
+The usual cause is that you logged out on dndbeyond.com. Logging out ends that session for good: the next login gives your browser a **new** `CobaltSession`, and the value Gamelog saved cannot be used any more. The same happens if you log out everywhere from the D&D Beyond account settings, or change your password.
+
+Simply closing the tab, closing the browser or restarting the computer does not do this. The cookie also ages out on its own after a while, so expect to repeat this now and then.
+
+What to do: log in on [dndbeyond.com](https://www.dndbeyond.com), copy the fresh `CobaltSession` value, paste it into **Gamelog Config → Connection** and connect again, see [First steps]({{ '/first-steps.html' | relative_url }}). Your campaign, character links and settings are untouched.
+
+{: .note }
+If you have to log out of D&D Beyond, do it between sessions rather than during one, and copy the new cookie before you play.
 
 ## I upgraded from version 2 and my tier is gone {#upgraded-from-v2}
 

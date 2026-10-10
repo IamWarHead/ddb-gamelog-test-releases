@@ -33,6 +33,9 @@ To copy it:
 {: .note }
 The cookie is stored only in this GM browser. It is never sent to your players and never shared. Treat it like a password: do not post it in Discord or in a screenshot.
 
+{: .warning }
+**Do not log out of D&D Beyond.** Logging out ends that session, and D&D Beyond hands out a new `CobaltSession` the next time you log in. The value Gamelog stored is dead from that moment, so rolls stop arriving until you copy the new one and connect again. Closing the browser or the tab is fine; only logging out breaks it.
+
 Only one GM browser relays D&D Beyond rolls at a time. The browser that relays is the one that holds your D&D Beyond credentials. If you have a second GM, only one of you should connect. The **Overview** page tells you whether this browser or another GM's browser relays. See [Only one GM relays]({{ '/troubleshooting.html' | relative_url }}#relaying-gm).
 
 ## 2. Pick your campaign
