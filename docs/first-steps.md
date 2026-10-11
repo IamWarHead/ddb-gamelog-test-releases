@@ -78,6 +78,16 @@ Who can join and for how long depends on the phase:
 The open beta does not need a Patreon tier.
 {% include screenshot.html src="test-phase.png" alt="Join the test" %}
 
+### When your days run out, and when a phase ends
+
+Your days start when you join, not when the phase does, and they keep running even if the phase closes in the meantime. Two things follow:
+
+- **Each phase starts on its own**, on the date in the table. You do not have to wait for an announcement.
+- **If you tested the previous phase, the next one lets you in by itself.** Open your world after it starts and you are already in, with fresh days; there is nothing to click.
+- **Between phases, and after the last one, no D&D Beyond rolls arrive.** The block on the Connection page shows when the next phase opens.
+
+A new wave inside the same phase works differently: it comes with a new test build, and you press **Join the test** once more to get another run of days.
+
 When your access runs out, your world falls back to the tier of your own Patreon membership. While a closed phase runs, that means the server stops sending rolls until you have access again. You cannot join the same phase twice, but every new phase, and every new wave of testers inside a phase, lets you join again.
 
 ## 5. Link your characters

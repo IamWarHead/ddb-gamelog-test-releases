@@ -40,7 +40,7 @@ The test block on the **Connection** page says why:
 | The closed alpha is open to current and former MAX patrons | Your Patreon account is not one of them. If you held MAX in the past and still see this, say so on Discord with your Patreon name. |
 | The closed beta is open to PRO and MAX patrons and to closed-alpha testers | Same, for the second phase. |
 | Your test time for this wave is over | You already tested this wave. The next wave starts with the next test build, and you can join again then. |
-| Joining is closed right now | The phase has not started yet, or it has ended. The dates are under the bar in the same block. |
+| Joining is closed right now | The phase has not started yet, or it has ended. The dates are under the bar in the same block, see [when a phase ends]({{ '/first-steps.html' | relative_url }}#when-your-days-run-out-and-when-a-phase-ends). |
 | Joining did not work, please try again | A temporary problem. Try once more; if it keeps happening, report it. |
 
 ## Only one GM relays {#relaying-gm}
