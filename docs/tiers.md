@@ -50,6 +50,9 @@ Join on [Patreon](https://www.patreon.com/iamwarhead/).
 
 Then link Patreon to your world on the Connection page, see [First steps]({{ '/first-steps.html' | relative_url }}#link-patreon). Changes on Patreon apply within seconds.
 
+{: .note }
+That means within seconds of **Patreon** making the change, which is not always the moment you click. An upgrade is charged and takes effect at once. A downgrade or a cancellation only takes effect when the period you already paid for ends, so you keep the higher tier until then — that is Patreon's doing, not Gamelog's. Never change your real tier just to test something: use a second, free Patreon account, see the [Testing checklist]({{ '/testing.html' | relative_url }}#10-membership-and-sessions).
+
 ## Product keys
 
 Most people never need one. A product key is an alternative to Patreon: a code handed out for a bundle, a gift or a special case, which grants a tier without a Patreon account.

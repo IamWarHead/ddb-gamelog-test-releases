@@ -169,8 +169,13 @@ Coming from v2? See [the upgrade note]({{ '/troubleshooting.html' | relative_url
 
 ## 10. Membership and sessions
 
-- Change your Patreon tier (upgrade or downgrade).
-- **Expect**: the Membership row follows within seconds, without reloading Foundry or re-linking.
+{: .note }
+**Please do not change your real Patreon tier for a test.** An upgrade charges you straight away, and a downgrade only takes effect when the paid period ends, so you would pay for something that proves nothing. To see how another tier behaves, use a second, **free** Patreon account instead, see below.
+
+- Unlink Patreon on the Connection page, then link a different Patreon account that has no tier (a free account is enough).
+- **Expect**: the Membership row follows within seconds, without reloading Foundry. The world drops to the lower tier, the paid features lock, and nothing breaks.
+- Link your own account again.
+- **Expect**: your tier comes back, equally fast. Your test grant is tied to your D&D Beyond user, not to Patreon, so it survives all of this.
 - Reload Foundry in the middle of a session.
 - **Expect**: it reconnects on its own and rolls keep arriving.
 - With two GMs online, close the relaying GM's browser.
