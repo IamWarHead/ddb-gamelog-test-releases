@@ -71,7 +71,7 @@ Who can join and for how long depends on the phase:
 
 | Phase | Dates (tentative) | Who can join | Access | You get |
 | --- | --- | --- | --- | --- |
-| Closed alpha | October 11–25, 2026 | Everyone who has Gamelog MAX now or had it at some point | 7 days | Gamelog MAX features |
+| Closed alpha | October 12–25, 2026 | Everyone who has Gamelog MAX now or had it at some point | 7 days | Gamelog MAX features |
 | Closed beta | October 26–November 8, 2026 | Everyone who has Gamelog PRO or MAX now, plus everyone who tested the closed alpha | 7 days | Your own tier, at least PRO |
 | Open beta | November 9–15, 2026 | Anyone, no Patreon membership needed | 3 days | Gamelog PRO features |
 
