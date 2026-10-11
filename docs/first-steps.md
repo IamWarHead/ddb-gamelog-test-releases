@@ -75,7 +75,7 @@ Who can join and for how long depends on the phase:
 | Closed beta | October 26–November 8, 2026 | Everyone who has Gamelog PRO or MAX now, plus everyone who tested the closed alpha | 7 days | Your own tier, at least PRO |
 | Open beta | November 9–15, 2026 | Anyone, no Patreon membership needed | 3 days | Gamelog PRO features |
 
-The open beta does not need a Patreon tier.
+The open beta does not need a Patreon tier. Every date turns over at **midnight UTC** (02:00 in Central European Summer Time), so a phase opens at the start of the first day and the last day in the table is still yours.
 {% include screenshot.html src="test-phase.png" alt="Join the test" %}
 
 ### When your days run out, and when a phase ends

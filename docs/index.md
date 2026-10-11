@@ -25,7 +25,7 @@ You are looking at a test build. It may break. Please report problems, see [Feed
 | Foundry VTT | v13 minimum, v14 verified |
 | Game system | dnd5e 5.0.0 or newer |
 
-The test runs in three phases. All dates are tentative.
+The test runs in three phases. All dates are tentative and turn over at midnight UTC.
 
 | Phase | Dates | Who can join | Access | You get |
 | --- | --- | --- | --- | --- |
