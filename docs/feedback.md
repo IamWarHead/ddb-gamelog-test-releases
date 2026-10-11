@@ -8,7 +8,20 @@ nav_order: 9
 {: .warning }
 This is a test build. It will have bugs. Your reports are the reason it exists.
 
-For now, all feedback and help go through Discord. If you are not on the server yet, join it first: [https://discord.com/invite/HSTtrphyFg](https://discord.com/invite/HSTtrphyFg)
+There are two ways, and both are read:
+
+| Where | Good for |
+| --- | --- |
+| [Discord](https://discord.com/invite/HSTtrphyFg) | Anything. Questions, "is this supposed to happen", quick reports. No GitHub account needed. |
+| [GitHub issues](https://github.com/IamWarHead/ddb-gamelog-test-releases/issues/new/choose) | A bug you can describe step by step, or an idea. The form asks for everything needed, so nothing gets lost. |
+
+There are two forms: **Bug report** for something that does not work, and **Feedback or idea** for something that works but could be better.
+
+The **Send feedback** button on the Connection page takes you to the bug form and puts your diagnostics report on the clipboard; paste it into the form or into Discord.
+
+## Discord
+
+If you are not on the server yet, join it first: [https://discord.com/invite/HSTtrphyFg](https://discord.com/invite/HSTtrphyFg)
 
 Each test phase has its own channel. Post your reports in the channel of the phase you are testing:
 
@@ -22,7 +35,7 @@ The channel links only open once you are on the server.
 
 ## What to include
 
-- Module version, for example 3.0.0-alpha.5. You find it on **Gamelog Config → Debug panel**.
+- Module version, for example 3.0.0-alpha.12. You find it on **Gamelog Config → Debug panel**.
 - Foundry VTT version.
 - dnd5e version.
 - What you did, step by step.
@@ -48,13 +61,13 @@ The console may also show errors from Foundry itself and from other modules. Sen
 
 ## Easy way
 
-On the **Connection** page there is a **Send feedback** button. It copies a diagnostics report to your clipboard (no secrets in it). Paste it into your message on Discord.
+On the **Connection** page there is a **Send feedback** button. It copies a diagnostics report to your clipboard (no secrets in it) and opens the bug form. Paste the report into the form, or into your message on Discord.
 
 You can also use **Copy support report** on the **Debug panel**.
 
 ## Do not share
 
-Do not post any of these in Discord, in screenshots or anywhere else:
+Do not post any of these in Discord, in an issue, in screenshots or anywhere else:
 
 - Your cobalt cookie (`CobaltSession`).
 - A Discord webhook URL.
