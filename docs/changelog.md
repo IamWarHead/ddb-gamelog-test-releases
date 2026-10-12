@@ -10,6 +10,12 @@ These are test builds. Each release may break things that worked before. Please 
 
 Newest first. This is a short summary for testers. Update the module in Foundry to get a release, see [Install]({{ '/install.html' | relative_url }}#update).
 
+## 3.0.0-alpha.13 (2026-10-12)
+
+Fixed:
+
+- **Patreon login works without a popup.** If the browser blocks the login window, or you run the Foundry desktop app, the page now offers the login as a link you can open or copy. The world is linked as soon as you finish, in any browser, see [Troubleshooting]({{ '/troubleshooting.html' | relative_url }}#patreon-window).
+
 ## 3.0.0-alpha.12 (2026-10-10)
 
 New:
