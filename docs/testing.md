@@ -88,7 +88,7 @@ Nobody can cover everything. This matrix says which combinations matter most, so
 - Pick your campaign.
 - **Expect**: Overview shows the campaign and which browser relays.
 - Link Patreon, then look at the Membership row.
-- **Expect**: your tier, matching what you pay for.
+- **Expect**: your tier, matching what you pay for. If no login window opens (desktop app, popup blocker), the page offers a link and a copy button, and linking works through them.
 - Press **Join the test**.
 - **Expect**: the page says how long you have.
 

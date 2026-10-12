@@ -59,6 +59,9 @@ On the Connection page, use the membership section to log in with Patreon. When 
 {% include screenshot.html src="patreon-link-after.png" alt="Membership section after linking Patreon" %}
 
 {: .note }
+No login window? Some browsers block it, and the Foundry **desktop app** never opens one. The page then shows an **Open the Patreon login** link with a copy button – use either, in any browser. The login finishes on the Gamelog server, so your world is linked the moment you are done, even if you logged in on another device. See [Troubleshooting]({{ '/troubleshooting.html' | relative_url }}#patreon-window).
+
+{: .note }
 Coming from version 2? Your world may ask you to link Patreon again, even though it was linked before. That is expected and takes one click. Your membership and the tiers you held in the past belong to your Patreon account, not to the world, so nothing is lost.
 
 ## 4. Join the test {#join-the-test}

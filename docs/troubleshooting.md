@@ -75,6 +75,20 @@ Check these in order:
 
 If you changed your Patreon membership, the change arrives within seconds and the Connection page updates itself. If your tier still looks wrong a minute later, reload Foundry.
 
+## The Patreon login window does not open {#patreon-window}
+
+Pressing **Log in with Patreon** opens a small window. Two cases where it does not:
+
+- **The Foundry desktop app.** It does not open windows for pages outside Foundry.
+- **A popup blocker.** Safari blocks pop-ups by default; Brave, uBlock Origin, AdGuard and similar extensions do the same.
+
+The page then shows **Open the Patreon login** with a copy button next to it. Click the link, or copy it and paste it into any browser – your phone works too. The login is finished on the Gamelog server, so the world is linked the second you are done, and Foundry updates by itself; you do not have to come back to the same browser.
+
+The link is valid for 10 minutes. If it expires, press **Log in with Patreon** again for a fresh one.
+
+{: .note }
+If you see no link at all and nothing happens, you are on an older test build. Update the module, see [Install]({{ '/install.html' | relative_url }}#update).
+
 ## The cobalt cookie stopped working {#cobalt-expired}
 
 The Connection page says D&D Beyond rejected the cobalt cookie, and rolls no longer arrive.
