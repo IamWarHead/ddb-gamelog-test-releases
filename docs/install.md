@@ -56,7 +56,7 @@ This URL always points at the newest test build, so keep it: you need it once, a
 
 ## Language
 
-The module follows Foundry's own language setting, under **Game Settings → Configure Settings → Core**. English and Hungarian are available; anything not translated falls back to English.
+The module follows Foundry's own language setting, under **Game Settings → Configure Settings → Core**. English, French, Hungarian and Spanish are available; anything not translated falls back to English.
 
 More languages are on the way, and the translation files will be opened up so the community can add its own. If you would like to translate Gamelog into your language, say so on [Discord](https://discord.com/invite/HSTtrphyFg) and you will be told how once it opens.
 
