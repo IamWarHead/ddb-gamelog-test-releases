@@ -10,6 +10,31 @@ These are test builds. Each release may break things that worked before. Please 
 
 Newest first. This is a short summary for testers. Update the module in Foundry to get a release, see [Install]({{ '/install.html' | relative_url }}#update).
 
+## 3.0.0-alpha.17 (2026-10-14)
+
+New:
+
+- **The combat tracker sync tells you when D&D Beyond limits requests.** The GM now sees a warning, and the sync pauses and picks up again by itself, see [When D&D Beyond limits requests]({{ '/features/combat-tracker.html' | relative_url }}#when-dd-beyond-limits-requests).
+
+## 3.0.0-alpha.16 (2026-10-13)
+
+New:
+
+- **French, Spanish and Brazilian Portuguese translations**, next to English and Hungarian. The module follows Foundry's own language setting, see [Install]({{ '/install.html' | relative_url }}#language).
+
+## 3.0.0-alpha.15 (2026-10-13)
+
+New:
+
+- **Update notice.** The GM gets a popup when a newer test build is out, and Gamelog Config shows a green banner until you update. Players never see either. You choose whether the popup shows once per release or every time Foundry loads, see [Install]({{ '/install.html' | relative_url }}#update).
+
+## 3.0.0-alpha.14 (2026-10-13)
+
+Fixed:
+
+- **Gamelog Config in Foundry's light theme.** The dropdowns opened white with pale text and the buttons washed out; both stay readable now, whatever theme Foundry is set to.
+- Themed chat cards no longer mix light text with a light surface in Foundry's light theme.
+
 ## 3.0.0-alpha.13 (2026-10-12)
 
 Fixed:
