@@ -64,6 +64,9 @@ No login window? Some browsers block it, and the Foundry **desktop app** never o
 {: .note }
 Coming from version 2? Your world may ask you to link Patreon again, even though it was linked before. That is expected and takes one click. Your membership and the tiers you held in the past belong to your Patreon account, not to the world, so nothing is lost.
 
+{: .note }
+Coming from the closed alpha? The beta runs on a new server, which does not know which Patreon account your world was linked to, so link Patreon here once more after updating. It takes one click and nothing is lost, your membership belongs to your Patreon account. See [Troubleshooting]({{ '/troubleshooting.html' | relative_url }}#beta-relink).
+
 ## 4. Join the test {#join-the-test}
 
 While the test is closed, the server only sends D&D Beyond rolls to accounts that joined. On the Connection page, click **Join the test**. The page then shows your tier and how many days you have left.
@@ -78,7 +81,7 @@ Who can join and for how long depends on the phase:
 | Closed beta | October 26–November 8, 2026 | Everyone who has Gamelog PRO or MAX now, plus everyone who tested the closed alpha | 7 days | Your own tier, at least PRO |
 | Open beta | November 9–15, 2026 | Anyone, no Patreon membership needed | 3 days | Gamelog PRO features |
 
-The open beta does not need a Patreon tier. Every date turns over at **midnight UTC** (02:00 in Central European Summer Time), so a phase opens at the start of the first day and the last day in the table is still yours.
+The open beta does not need a Patreon tier. Every date turns over at **midnight UTC** (01:00 in Central European Time, 02:00 in summer time), so a phase opens at the start of the first day and the last day in the table is still yours.
 {% include screenshot.html src="test-phase.png" alt="Join the test" %}
 
 ### When your days run out, and when a phase ends

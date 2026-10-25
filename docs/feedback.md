@@ -35,7 +35,7 @@ The channel links only open once you are on the server.
 
 ## What to include
 
-- Module version, for example 3.0.0-alpha.17. You find it on **Gamelog Config → Debug panel**.
+- Module version, for example 3.0.0-beta.1. You find it on **Gamelog Config → Debug panel**.
 - Foundry VTT version.
 - dnd5e version.
 - What you did, step by step.

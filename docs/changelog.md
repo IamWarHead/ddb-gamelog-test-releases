@@ -10,6 +10,14 @@ These are test builds. Each release may break things that worked before. Please 
 
 Newest first. This is a short summary for testers. Update the module in Foundry to get a release, see [Install]({{ '/install.html' | relative_url }}#update).
 
+## 3.0.0-beta.1 (2026-10-26)
+
+New:
+
+- **The beta runs on a new server.** Until now the test builds talked to a test server; from this build the module connects to the server version 3 will launch on. Link Patreon in your world once more after updating (Connection page, membership section), your test days carry over and you keep the same manifest URL. Builds before the beta stay on the old test server, update to move. See [Troubleshooting]({{ '/troubleshooting.html' | relative_url }}#beta-relink) if your tier looks wrong.
+
+Nothing else changed in the module itself.
+
 ## 3.0.0-alpha.17 (2026-10-14)
 
 New:

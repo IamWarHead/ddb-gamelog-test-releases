@@ -102,6 +102,16 @@ What to do: log in on [dndbeyond.com](https://www.dndbeyond.com), copy the fresh
 {: .note }
 If you have to log out of D&D Beyond, do it between sessions rather than during one, and copy the new cookie before you play.
 
+## My tier is gone after updating to the beta {#beta-relink}
+
+After the update the Connection page shows no Patreon link, the membership reads Free, or the test block says to log in with Patreon first, and no rolls arrive.
+
+The beta runs on a new server. It does not know which Patreon account your world was linked to on the old test server, so the link has to be made once more. Nothing is lost: your membership and the tiers you held belong to your Patreon account, not to the world.
+
+1. Open **Gamelog Config → Connection** and log in with Patreon in the membership section. If no login window opens, see [The Patreon login window does not open](#patreon-window).
+2. If the test block still offers **Join the test**, press it. If you tested the closed alpha, the beta lets you in by itself.
+3. Still refused? The page names the reason, see [Joining the test is refused](#join-refused), and tell us on Discord which module version you have.
+
 ## I upgraded from version 2 and my tier is gone {#upgraded-from-v2}
 
 Version 3 keeps the identifier your world had in version 2, but only when the GM opens Foundry in the same browser that ran version 2. In any other browser, or after clearing its storage, the world gets a new identifier and starts out unlinked.

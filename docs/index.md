@@ -20,8 +20,8 @@ You are looking at a test build. It may break. Please report problems, see [Feed
 
 | | |
 | --- | --- |
-| Phase | Closed alpha |
-| Current test version | 3.0.0-alpha.17 |
+| Phase | Closed beta |
+| Current test version | 3.0.0-beta.1 |
 | Foundry VTT | v13 minimum, v14 verified |
 | Game system | dnd5e 5.0.0 or newer |
 
@@ -34,6 +34,9 @@ The test runs in three phases. All dates are tentative and turn over at midnight
 | Open beta | November 9–15, 2026 | Anyone, no Patreon membership needed | 3 days | Gamelog PRO features |
 
 You join from inside Foundry: on the **Connection** page of Gamelog Config, click **Join the test**, see [First steps]({{ '/first-steps.html' | relative_url }}#join-the-test). In the two closed phases, link Patreon first so the server can check whether you can join.
+
+{: .note }
+**The beta runs on a new server.** From 3.0.0-beta.1 the module connects to the server version 3 will launch on, not the test server of the alpha. After updating, link Patreon in your world once more (Connection page, membership section). Your test days carry over. Builds before the beta keep talking to the old test server, so update to move, see [Install]({{ '/install.html' | relative_url }}#update). If your tier looks wrong after updating, see [Troubleshooting]({{ '/troubleshooting.html' | relative_url }}#beta-relink).
 
 ## How to join
 
