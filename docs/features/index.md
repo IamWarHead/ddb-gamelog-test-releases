@@ -20,4 +20,5 @@ Each page states the membership tier it needs. The full list is on the [Tiers]({
 | [Character sync]({{ '/features/character-sync.html' | relative_url }}) | PRO |
 | [Discord]({{ '/features/discord.html' | relative_url }}) | PRO |
 | [Combat tracker (experimental)]({{ '/features/combat-tracker.html' | relative_url }}) | PRO |
+| [Automatisms (experimental)]({{ '/features/automatisms.html' | relative_url }}) | PRO |
 | [Legendary Patrons]({{ '/features/legendary-patrons.html' | relative_url }}) | MAX |

@@ -10,6 +10,13 @@ These are test builds. Each release may break things that worked before. Please 
 
 Newest first. This is a short summary for testers. Update the module in Foundry to get a release, see [Install]({{ '/install.html' | relative_url }}#update).
 
+## 3.0.0-beta.2 (2026-11-04)
+
+New:
+
+- **Automatisms (PRO, experimental).** Relayed rolls can place spell area templates (the caster's player places their own when online), apply activity effects from dnd5e's effects tray, and show the matched activity's buttons — saving throw with DC, place template, consume/refund. Everything is off by default; the switches are in **Gamelog Config → Rolls & cards → Automatisms**. See [Automatisms]({{ '/features/automatisms.html' | relative_url }}) for what to try and the known limits.
+- **Warning when DDB Gamelog Tweaks is active.** That module supports Gamelog v2 only and does not work with v3; its features are built into v3 now. Remove it to avoid doubled buttons and templates.
+
 ## 3.0.0-beta.1 (2026-10-26)
 
 New:

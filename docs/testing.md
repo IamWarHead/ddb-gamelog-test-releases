@@ -181,6 +181,27 @@ Coming from v2? See [the upgrade note]({{ '/troubleshooting.html' | relative_url
 - With two GMs online, close the relaying GM's browser.
 - **Expect**: the other GM can take over by entering their own cobalt cookie.
 
+## 11. Automatisms (PRO, experimental)
+
+Turn the switches on in **Gamelog Config → Rolls & cards → Automatisms** first, and link a character with Fireball (or another area spell) prepared. See [Automatisms]({{ '/features/automatisms.html' | relative_url }}).
+
+- Roll Fireball damage on D&D Beyond with tokens on the scene.
+- **Expect**: template placement opens for the caster's player (or the GM); when placed, the tokens inside get target markers and the card's damage tray lists them.
+- Cancel the placement, then roll Fireball again, or use the card's **Place template** button.
+- **Expect**: you can place again — a cancelled attempt never blocks the next roll.
+- With removal set to next turn or next round, run a combat past that point.
+- **Expect**: the template disappears on the turn or round change.
+- With targeting off, place again.
+- **Expect**: the template lands but no targets change, on the card or in anyone's browser.
+- Roll Vicious Mockery (or another spell with an effect) and open the effects tray on the card.
+- **Expect**: the GM can apply the effect to the targeted tokens.
+- On a card of an activity with a saving throw, click the save button.
+- **Expect**: the targeted tokens roll the save with the right DC. With Midi-QoL on, there is no save button.
+- Roll a private (to DM) area spell.
+- **Expect**: no template placement is offered.
+- With JB2A + Automated Animations on, place the template and watch the animation.
+- **Expect**: it plays exactly once.
+
 ## What to send back
 
 The build version, Foundry and dnd5e versions, the matrix row you were on (where Foundry runs, your role, your tier, roll source, other modules), what you did, what happened, what you expected — plus the support report and any red console errors. [Feedback]({{ '/feedback.html' | relative_url }}) has the details.
