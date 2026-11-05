@@ -10,6 +10,20 @@ These are test builds. Each release may break things that worked before. Please 
 
 Newest first. This is a short summary for testers. Update the module in Foundry to get a release, see [Install]({{ '/install.html' | relative_url }}#update).
 
+## 3.0.0-beta.5 (2026-11-05)
+
+New:
+
+- **Choose how many roll cards to recreate (PRO).** Next to **Also recreate the roll cards** you pick 50, 100 or 200; cards are made for the newest rolls of an import and 200 is the most. The statistics still take every roll.
+- The import button now explains in a tooltip why it is disabled, for example during the 3-hour cooldown of a deep import.
+
+Fixed:
+
+- Recreated damage and healing cards show the weapon or spell image and name again.
+- Recreated cards are inserted in time order instead of in reverse at the bottom of the chat.
+- A recreated attack or damage card whose item has no matching activity no longer fails to appear.
+- A refused deep import no longer leaves a **Continue import** button that cannot continue after a complete import.
+
 ## 3.0.0-beta.4 (2026-11-05)
 
 New:

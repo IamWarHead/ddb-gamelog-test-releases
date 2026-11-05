@@ -241,9 +241,9 @@ Open **Gamelog Config → Statistics** after some rolls, public and private. See
 - Press **Stop** in the middle, then press the button again.
 - **Expect**: it reads **Continue import from D&D Beyond** and carries on where it stopped.
 - Tick **Also recreate the roll cards** and import from D&D Beyond again with some rolls that have no card yet.
-- **Expect**: the page reports how many chat cards were made. After a reload the cards sit in the chat log at the time they were rolled, themed like live cards, with no sound or notification, no templates or other automation, and no doubled numbers on the Statistics page. Running it again makes no further cards. A private roll is visible to the GM and its owner only.
+- **Expect**: the page reports how many chat cards were made, at most the number picked next to the tick box (50, 100 or 200). The cards sit in the chat log in the order they were rolled, oldest at the top, themed like live cards, with no sound or notification, no templates or other automation, and no doubled numbers on the Statistics page. Attack and damage cards show the weapon or spell image and name; damage cards have no apply buttons. Running it again makes no further cards. A private roll is visible to the GM and its owner only.
 - Let an import reach the oldest roll, then run it again.
-- **Expect**: the second run stops after the first page, as it already knows everything. Within 3 hours a deeper walk is refused with the time it is possible again, but the latest rolls still refresh.
+- **Expect**: the second run stops after the first page, as it already knows everything. Within 3 hours a deeper walk is refused with the time it is possible again, but the latest rolls still refresh. The import button is then disabled, and hovering it shows when it works again.
 - Open the Sessions tab in a browser that does not relay, and as a member without PRO.
 - **Expect**: the import from D&D Beyond is disabled and says why; without PRO the import and export buttons are locked with an upgrade hint.
 - Without a tier (second free Patreon account, see section 10).
