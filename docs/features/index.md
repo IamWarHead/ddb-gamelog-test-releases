@@ -21,4 +21,5 @@ Each page states the membership tier it needs. The full list is on the [Tiers]({
 | [Discord]({{ '/features/discord.html' | relative_url }}) | PRO |
 | [Combat tracker (experimental)]({{ '/features/combat-tracker.html' | relative_url }}) | PRO |
 | [Automatisms (experimental)]({{ '/features/automatisms.html' | relative_url }}) | PRO |
+| [Statistics (experimental)]({{ '/features/statistics.html' | relative_url }}) | Free teaser, Basic, PRO |
 | [Legendary Patrons]({{ '/features/legendary-patrons.html' | relative_url }}) | MAX |

@@ -202,6 +202,33 @@ Turn the switches on in **Gamelog Config → Rolls & cards → Automatisms** fir
 - With JB2A + Automated Animations on, place the template and watch the animation.
 - **Expect**: it plays exactly once.
 
+## 12. Statistics (Basic and PRO)
+
+Open **Gamelog Config → Statistics** after some rolls, public and private. See [Statistics]({{ '/features/statistics.html' | relative_url }}).
+
+- Roll a few attacks, checks, saves and damage on D&D Beyond, then switch the range between latest session, 30 days and all time.
+- **Expect**: the counts, highlights and character table follow the range.
+- Flush the chat log in Foundry and reopen the page.
+- **Expect**: the numbers are still there.
+- Switch on counting Foundry rolls (characters, monsters) and roll from a sheet in Foundry.
+- **Expect**: the roll is added to the same actor's D&D Beyond rolls; switched off again, it leaves the view.
+- Check the Checks & saves, Combat and Luck tabs (PRO).
+- **Expect**: skills, abilities and saves are listed; Combat shows no hit rate, only dice figures; Luck shows from 10 d20 rolls.
+- Turn on luck awards in Settings.
+- **Expect**: awards appear on the Luck tab for the GM only, and nowhere in chat.
+- As a player, use the **My dice statistics** button next to the chat input.
+- **Expect**: only your own characters, no monsters, no other player's private rolls. With the GM's switch off, the button explains it is unavailable.
+- Post the recap to chat, and to Discord with a webhook connected.
+- **Expect**: a card with public rolls only; private rolls never appear.
+- Turn on the automatic recap and use **Start a new session now**.
+- **Expect**: the session that ended is posted, and new rolls count in a new session.
+- Export CSV and JSON on the Sessions tab.
+- **Expect**: a file with one row per character or monster and session.
+- Use **Reset statistics**.
+- **Expect**: the records of this campaign are gone and old chat rolls are not counted again.
+- Without a tier (second free Patreon account, see section 10).
+- **Expect**: only the session-so-far teaser shows, with an upgrade hint.
+
 ## What to send back
 
 The build version, Foundry and dnd5e versions, the matrix row you were on (where Foundry runs, your role, your tier, roll source, other modules), what you did, what happened, what you expected — plus the support report and any red console errors. [Feedback]({{ '/feedback.html' | relative_url }}) has the details.

@@ -31,6 +31,7 @@ Each tier includes everything in the tiers below it. Gamelog MAX has the same fe
 | Card themes, player colours | Basic |
 | D&D Beyond character avatars on cards | Basic |
 | Clicking a card opens the sheet or D&D Beyond | Basic |
+| Statistics: highlights, character table, player view | Basic |
 | Automatic linking of ddb-importer characters | Basic |
 | Item and spell links on cards | PRO |
 | Monster rolls | PRO |
@@ -38,6 +39,7 @@ Each tier includes everything in the tiers below it. Gamelog MAX has the same fe
 | Live character and condition updates | PRO |
 | Apply damage and healing from cards | PRO |
 | Automatisms: spell templates, effect tray and usage buttons on cards (experimental) | PRO |
+| Statistics: party, monsters, checks, combat, luck, charts, awards, history, export, session recap | PRO |
 | Dice So Nice, JB2A + Automated Animations | PRO |
 | Discord relay of public rolls | PRO |
 | Midi-QoL integration (experimental) | PRO |
