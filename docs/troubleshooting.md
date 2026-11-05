@@ -14,6 +14,16 @@ Then press **F12** in the browser that runs Foundry and look at the **Console** 
 
 {% include screenshot.html src="debug-panel.png" alt="Debug panel" %}
 
+## The GM gets a white page after updating {#white-page}
+
+3.0.0-beta.7 froze Foundry for the GM: the world stayed white, with nothing in the console, while players could still join. 3.0.0-beta.8 fixes it.
+
+1. On Foundry's setup screen, launch the world in **safe configuration**, which starts it with all modules off.
+2. Update the module to 3.0.0-beta.8 or later, see [Install]({{ '/install.html' | relative_url }}#update).
+3. Switch the module on again and reload.
+
+Your settings and statistics are kept.
+
 ## It does not connect
 
 Open **Gamelog Config → Connection** and read the message. Common ones:

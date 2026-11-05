@@ -10,7 +10,16 @@ These are test builds. Each release may break things that worked before. Please 
 
 Newest first. This is a short summary for testers. Update the module in Foundry to get a release, see [Install]({{ '/install.html' | relative_url }}#update).
 
-## 3.0.0-beta.7 (2026-11-06)
+## 3.0.0-beta.8 (2026-11-05)
+
+Fixed:
+
+- **Foundry froze for the GM on 3.0.0-beta.7.** The world stayed on a white page with no error message; players could still join. Update to 3.0.0-beta.8. If you are stuck on the white page, see [Troubleshooting]({{ '/troubleshooting.html' | relative_url }}#white-page).
+
+## 3.0.0-beta.7 (2026-11-05)
+
+{: .warning }
+This build freezes Foundry for the GM. Use 3.0.0-beta.8 or later.
 
 New:
 
