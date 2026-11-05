@@ -75,9 +75,9 @@ With **Show upgrade hints** on (**Gamelog Config → General**), the tabs your m
 
 Luck is the d20 average minus the average the dice give for each roll's advantage mode. It evens out over many rolls. Per character it shows from 10 d20 rolls.
 
-**Luck per skill** (PRO): on Checks & saves, every table (roll types, skills, ability checks, saving throws) has a Luck column, and each section a signed chart, using the same measure. It shows from 5 d20 rolls of a skill, and follows the **Character** selector, so you can see where one character's dice run hot or cold.
+**Luck per skill** (PRO): on Checks & saves, every table (roll types, skills, ability checks, saving throws) has a Luck column, and each section a signed chart, using the same measure. It shows from 10 d20 rolls of a skill, and follows the **Character** selector, so you can see where one character's dice run hot or cold.
 
-**Luck awards** (PRO) name the luckiest and toughest dice, and the longest hot streak (3 or more d20 rolls of 15 or higher in a row) and cold streak (3 or more of 5 or lower). They are **off by default** and only the GM sees them on the Luck tab. They reach the table only if you switch on **Name luck awards in the recap**, see [Session recap](#session-recap-pro). Ties get no award.
+**Luck awards** (PRO) name the luckiest and toughest dice, and the longest hot streak (3 or more d20 rolls of 16 or higher in a row) and cold streak (3 or more of 5 or lower). They are **off by default** and only the GM sees them on the Luck tab. They reach the table only if you switch on **Name luck awards in the recap**, see [Session recap](#session-recap-pro). Ties get no award.
 
 {% include screenshot.html src="statistics-luck-1.png" alt="The Luck tab with the Time period and Character selectors and luck per character" %}
 

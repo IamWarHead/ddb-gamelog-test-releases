@@ -213,7 +213,7 @@ Open **Gamelog Config → Statistics** after some rolls, public and private. See
 - Switch on counting Foundry rolls (characters, monsters) and roll from a sheet in Foundry.
 - **Expect**: the roll is added to the same actor's D&D Beyond rolls; switched off again, it leaves the view.
 - Check the Checks & saves, Combat and Luck tabs (PRO).
-- **Expect**: skills, abilities and saves are listed, each with a Luck column from 5 d20 rolls; Combat shows no hit rate, only dice figures and counts without percentages; Luck shows from 10 d20 rolls.
+- **Expect**: skills, abilities and saves are listed, each with a Luck column from 10 d20 rolls; Combat shows no hit rate, only dice figures and counts without percentages; Luck shows from 10 d20 rolls.
 - Pick a character in the **Character** selector on Checks & saves, Luck and Sessions, and hover over a bar or a data point in a chart.
 - **Expect**: the tables and charts narrow to that character, and the exact value shows on hover.
 - Switch on **Show percentages** in Settings and open Combat.
