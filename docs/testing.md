@@ -240,6 +240,8 @@ Open **Gamelog Config → Statistics** after some rolls, public and private. See
 - **Expect**: progress shows rolls read, new rolls and how far back it got; the dates move back. Rolls you already have are not doubled, and a private roll meant for another player never appears.
 - Press **Stop** in the middle, then press the button again.
 - **Expect**: it reads **Continue import from D&D Beyond** and carries on where it stopped.
+- Tick **Also recreate the roll cards** and import from D&D Beyond again with some rolls that have no card yet.
+- **Expect**: the page reports how many chat cards were made. After a reload the cards sit in the chat log at the time they were rolled, themed like live cards, with no sound or notification, no templates or other automation, and no doubled numbers on the Statistics page. Running it again makes no further cards. A private roll is visible to the GM and its owner only.
 - Let an import reach the oldest roll, then run it again.
 - **Expect**: the second run stops after the first page, as it already knows everything. Within 3 hours a deeper walk is refused with the time it is possible again, but the latest rolls still refresh.
 - Open the Sessions tab in a browser that does not relay, and as a member without PRO.

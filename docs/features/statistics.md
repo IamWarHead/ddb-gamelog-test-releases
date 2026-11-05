@@ -134,6 +134,7 @@ One section on the Settings tab, with three rows. Records are kept in this brows
 - If D&D Beyond limits requests, it waits 5, 15 and 45 seconds and tries again before it gives up. A run that stopped, failed or was limited carries on where it left off next time: the button then reads **Continue import from D&D Beyond**.
 - After a complete import, a deeper import of the same campaign has a **3-hour cooldown**. A refresh of the latest rolls still works (the first pages), the older ones can be imported again after the time the page shows.
 - After a complete import, running it again stops at the first page of rolls it already knows.
+- **Also recreate the roll cards** adds each imported roll to the chat log as a card dated when it was rolled. Rolls that already have a card are skipped. The cards are silent, do not run automation, and are not counted twice in the statistics. Private rolls are only shown to the GM and the owner. Foundry sorts them into place after a reload; until then they can sit at the bottom of the chat. The page shows how many cards were made.
 
 **From a file** imports a JSON export made with **Export JSON**, also one from another GM browser, and adds its rolls. Repeating it adds nothing. Exports made before the JSON kept the rolls cannot be imported, the page tells you so, and a file that is not a statistics export is refused without changing anything.
 
