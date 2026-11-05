@@ -10,6 +10,16 @@ These are test builds. Each release may break things that worked before. Please 
 
 Newest first. This is a short summary for testers. Update the module in Foundry to get a release, see [Install]({{ '/install.html' | relative_url }}#update).
 
+## 3.0.0-beta.4 (2026-11-05)
+
+New:
+
+- **Recreate roll cards on import (PRO).** The import of past rolls from D&D Beyond can also add each roll to the chat log as a card dated when it was rolled. Tick **Also recreate the roll cards** in the import section. The cards are silent, do not run automation and are not counted twice in the statistics. See [Statistics]({{ '/features/statistics.html' | relative_url }}#import-and-export-pro).
+
+Fixed:
+
+- The "rolling…" placeholder card now takes the card theme.
+
 ## 3.0.0-beta.3 (2026-11-05)
 
 New:

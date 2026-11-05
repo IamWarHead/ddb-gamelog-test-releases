@@ -21,7 +21,7 @@ You are looking at a test build. It may break. Please report problems, see [Feed
 | | |
 | --- | --- |
 | Phase | Closed beta |
-| Current test version | 3.0.0-beta.3 |
+| Current test version | 3.0.0-beta.4 |
 | Foundry VTT | v13 minimum, v14 verified |
 | Game system | dnd5e 5.0.0 or newer |
 
