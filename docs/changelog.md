@@ -10,6 +10,22 @@ These are test builds. Each release may break things that worked before. Please 
 
 Newest first. This is a short summary for testers. Update the module in Foundry to get a release, see [Install]({{ '/install.html' | relative_url }}#update).
 
+## 3.0.0-beta.6 (2026-11-05)
+
+New:
+
+- **Simpler import limits (PRO).** The import from D&D Beyond can run once an hour per campaign and reads at most the newest 1,000 rolls. The 3-hour cooldown after a deep import is gone. When an import stops at 1,000 rolls, the page says so.
+- **Dates on the session charts (PRO).** The Sessions tab charts show about ten dates along the bottom. A session without a value (no d20 roll, or too few for luck) is a hollow mark joined by a dashed line, instead of a gap.
+- **Leave out short sessions.** A new switch in **Statistics → Settings**, off by default, leaves out sessions with fewer than 10 d20 rolls by player characters, such as a test or a few rolls between games.
+
+Fixed:
+
+- The import from D&D Beyond stopped after the first page for many campaigns. It now reads back to the oldest roll (or the 1,000-roll limit).
+- A roll seen live and imported again is matched by its D&D Beyond roll id, so it counts once.
+- The d20 average and natural 20s and 1s use the die that was kept with advantage or disadvantage. Hot streaks start at 16 and cold streaks at 5, and luck shows from 10 d20 rolls everywhere.
+- Foundry rolls on dnd5e 5: ability checks and saves are filed under the right ability, concentration counts as a CON save, and healing rolls count as healing.
+- With no attacks in the range, the Combat tab says "No attack or damage rolls in this range" instead of suggesting the rolls were stored without a type.
+
 ## 3.0.0-beta.5 (2026-11-05)
 
 New:

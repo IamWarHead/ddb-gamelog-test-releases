@@ -114,6 +114,8 @@ Only **public rolls** are included, so private rolls never appear.
 
 The Sessions tab lists the latest sessions of the campaign with their rolls, natural 20s and 1s and the most active character, and charts the rolls, the d20 average and the luck per session once there are two. The **Character** selector narrows the charts to one character.
 
+The charts show about ten session dates along the bottom. Sessions are spaced evenly, not by date, so a break in play does not show as a gap. A session without a value is a grey hollow mark on the dashed line, joined to its neighbours by a faint dashed line: on the d20 average chart it had no d20 roll, on the luck chart fewer than 10. Hover the mark to see which.
+
 Under **Current session**, **Start** counts rolls from now on as a new session. With the automatic recap switched on, the session that ends is posted first.
 
 {% include screenshot.html src="statistics-sessions.png" alt="The Sessions tab with the history, charts and the current session" %}
@@ -132,7 +134,7 @@ One section on the Settings tab, with three rows. Records are kept in this brows
 - It walks back from the newest roll, one page of 20 to 40 rolls at a time, and shows how many rolls it read, how many were new and how far back it got. **Stop** ends it; what was already added stays.
 - Rolls the browser already has are not counted twice, and private rolls meant for other players are never included.
 - If D&D Beyond limits requests, it waits 5, 15 and 45 seconds and tries again before it gives up. A run that stopped, failed or was limited carries on where it left off next time: the button then reads **Continue import from D&D Beyond**.
-- After a complete import, a deeper import of the same campaign has a **3-hour cooldown**. A refresh of the latest rolls still works (the first pages), the older ones can be imported again after the time the page shows. During the cooldown the import button is disabled; hover it to see the time.
+- An import can run **once an hour per campaign** and reads at most the **newest 1,000 rolls**. When it stops at 1,000, the page says so; older rolls are not read. Within the hour the import button is disabled; hover it to see when it works again. A first page that fails does not use up the hour.
 - After a complete import, running it again stops at the first page of rolls it already knows.
 - **Also recreate the roll cards** adds each imported roll to the chat log as a card dated when it was rolled. Rolls that already have a card are skipped. The cards are silent, do not run automation, and are not counted twice in the statistics. Private rolls are only shown to the GM and the owner. Cards are made for the newest 50, 100 or 200 rolls of an import, as you pick next to the tick box (200 is the most); the statistics take every roll. Damage and healing cards show the weapon or spell like live cards, without the buttons to apply damage. The page shows how many cards were made.
 
@@ -141,6 +143,7 @@ One section on the Settings tab, with three rows. Records are kept in this brows
 ## Settings
 
 - **Count Foundry rolls of player characters / of monsters**: also count rolls made from sheets in Foundry, added to the same actor's D&D Beyond rolls. Off by default, experimental.
+- **Leave out short sessions**: sessions with fewer than 10 d20 rolls by player characters, such as a test or a few rolls between games, are left out of every tab, the session history, the charts and the export. Nothing is deleted; switch it off to count them again. Off by default.
 - **Show percentages**: shares next to the counts in the Combat table (natural 20s and 1s, advantage and disadvantage). Off by default, and kept per browser.
 - **Let players see their own statistics**: the player view above.
 - **Show luck awards**: on the Luck tab, off by default.
@@ -152,7 +155,7 @@ One section on the Settings tab, with three rows. Records are kept in this brows
 
 - Statistics are only as complete as what the GM's browser saw, see [Where the numbers come from](#where-the-numbers-come-from).
 - The history is not shared between GM browsers: use **Import and export** to move it.
-- The cooldown of a deeper import is kept on the server and starts again if the server restarts.
+- The hourly import limit is kept on the server and starts again if the server restarts.
 - Only the latest manual session start is remembered, so older hand-made splits are not recovered.
 - The automatic recap after a pause only runs while the relaying GM browser is open: it posts when it next sees a session that ended within the last day.
 - Without a membership that includes them, locked parts show a hint instead, see [Tiers]({{ '/tiers.html' | relative_url }}).
