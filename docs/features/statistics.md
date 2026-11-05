@@ -75,9 +75,9 @@ With **Show upgrade hints** on (**Gamelog Config → General**), the tabs your m
 
 Luck is the d20 average minus the average the dice give for each roll's advantage mode. It evens out over many rolls. Per character it shows from 10 d20 rolls.
 
-**Luck per skill** (PRO): on Checks & saves, every table (roll types, skills, ability checks, saving throws) has a Luck column, and each section a signed chart, using the same measure. It shows from 5 d20 rolls of a skill, and follows the **Character** selector, so you can see where one character's dice run hot or cold.
+**Luck per skill** (PRO): on Checks & saves, every table (roll types, skills, ability checks, saving throws) has a Luck column, and each section a signed chart, using the same measure. It shows from 10 d20 rolls of a skill, and follows the **Character** selector, so you can see where one character's dice run hot or cold.
 
-**Luck awards** (PRO) name the luckiest and toughest dice, and the longest hot streak (3 or more d20 rolls of 15 or higher in a row) and cold streak (3 or more of 5 or lower). They are **off by default** and only the GM sees them on the Luck tab. They reach the table only if you switch on **Name luck awards in the recap**, see [Session recap](#session-recap-pro). Ties get no award.
+**Luck awards** (PRO) name the luckiest and toughest dice, and the longest hot streak (3 or more d20 rolls of 16 or higher in a row) and cold streak (3 or more of 5 or lower). They are **off by default** and only the GM sees them on the Luck tab. They reach the table only if you switch on **Name luck awards in the recap**, see [Session recap](#session-recap-pro). Ties get no award.
 
 {% include screenshot.html src="statistics-luck-1.png" alt="The Luck tab with the Time period and Character selectors and luck per character" %}
 
@@ -85,13 +85,28 @@ Luck is the d20 average minus the average the dice give for each roll's advantag
 
 ## Player view (PRO)
 
-With **Let players see their own statistics** on (the default; locked without PRO), players get a **My dice statistics** button next to the chat input. It shows the rolls of the characters they own: personal bests, luck, a table and the range filter. Monsters and other players' private rolls never show.
+With **Let players see their own statistics** on (the default; locked without PRO), players get a **My dice statistics** button next to the chat input. It shows the rolls of the characters they own, with the range filter and these tabs:
+
+- **Overview**: personal bests, luck and a table per character.
+- **Checks & saves**, **Combat** and **Luck** (with the d20 distribution): the same figures as the GM page, for their own characters. Luck awards stay with the GM.
+- **Sessions**: rolls, d20 average and luck per session, once there are two.
+
+Monsters and other players' private rolls never show.
 
 {% include screenshot.html src="statistics-player-button.png" alt="The My dice statistics button next to the chat input" %}
 
 {% include screenshot.html src="statistics-player.png" alt="The player's own statistics window" %}
 
-It runs on the GM's PRO membership, players do not need one. Without PRO the button is not shown. A player's numbers start when the view first became available in their browser, and rolls of characters without a Foundry actor are not shown.
+It runs on the GM's PRO membership, players do not need one. Without PRO the button is not shown.
+
+Where a player's numbers come from:
+
+- The player's browser keeps the rolls it sees in the chat.
+- When the view opens while the GM who relays the rolls is online, the GM's browser adds the **public** rolls of the player's characters it has, imported ones included. If that GM is offline, the view shows what the player's browser has, and the next open fills the rest.
+- The player's own **private** rolls show only if their browser saw them. They are not sent over, because Foundry's socket reaches every browser at the table.
+- With **Leave out short sessions** on, the player view leaves out the same sessions as the GM page.
+- After the GM uses **Reset statistics**, the player's browser clears its own records once and fills up again from the GM.
+- Rolls of characters without a Foundry actor are not shown.
 
 ## Session recap (PRO)
 
@@ -114,6 +129,8 @@ Only **public rolls** are included, so private rolls never appear.
 
 The Sessions tab lists the latest sessions of the campaign with their rolls, natural 20s and 1s and the most active character, and charts the rolls, the d20 average and the luck per session once there are two. The **Character** selector narrows the charts to one character.
 
+The charts show about ten session dates along the bottom. Sessions are spaced evenly, not by date, so a break in play does not show as a gap. A session without a value is a grey hollow mark on the dashed line, joined to its neighbours by a faint dashed line: on the d20 average chart it had no d20 roll, on the luck chart fewer than 10. Hover the mark to see which.
+
 Under **Current session**, **Start** counts rolls from now on as a new session. With the automatic recap switched on, the session that ends is posted first.
 
 {% include screenshot.html src="statistics-sessions.png" alt="The Sessions tab with the history, charts and the current session" %}
@@ -132,7 +149,7 @@ One section on the Settings tab, with three rows. Records are kept in this brows
 - It walks back from the newest roll, one page of 20 to 40 rolls at a time, and shows how many rolls it read, how many were new and how far back it got. **Stop** ends it; what was already added stays.
 - Rolls the browser already has are not counted twice, and private rolls meant for other players are never included.
 - If D&D Beyond limits requests, it waits 5, 15 and 45 seconds and tries again before it gives up. A run that stopped, failed or was limited carries on where it left off next time: the button then reads **Continue import from D&D Beyond**.
-- After a complete import, a deeper import of the same campaign has a **3-hour cooldown**. A refresh of the latest rolls still works (the first pages), the older ones can be imported again after the time the page shows. During the cooldown the import button is disabled; hover it to see the time.
+- An import can run **once an hour per campaign** and reads at most the **newest 1,000 rolls**. When it stops at 1,000, the page says so; older rolls are not read. Within the hour the import button is disabled; hover it to see when it works again. A first page that fails does not use up the hour.
 - After a complete import, running it again stops at the first page of rolls it already knows.
 - **Also recreate the roll cards** adds each imported roll to the chat log as a card dated when it was rolled. Rolls that already have a card are skipped. The cards are silent, do not run automation, and are not counted twice in the statistics. Private rolls are only shown to the GM and the owner. Cards are made for the newest 50, 100 or 200 rolls of an import, as you pick next to the tick box (200 is the most); the statistics take every roll. Damage and healing cards show the weapon or spell like live cards, without the buttons to apply damage. The page shows how many cards were made.
 
@@ -141,6 +158,7 @@ One section on the Settings tab, with three rows. Records are kept in this brows
 ## Settings
 
 - **Count Foundry rolls of player characters / of monsters**: also count rolls made from sheets in Foundry, added to the same actor's D&D Beyond rolls. Off by default, experimental.
+- **Leave out short sessions**: sessions with fewer than 10 d20 rolls by player characters, such as a test or a few rolls between games, are left out of every tab, the session history, the charts and the export, and of the player view. Nothing is deleted; switch it off to count them again. Off by default.
 - **Show percentages**: shares next to the counts in the Combat table (natural 20s and 1s, advantage and disadvantage). Off by default, and kept per browser.
 - **Let players see their own statistics**: the player view above.
 - **Show luck awards**: on the Luck tab, off by default.
@@ -152,7 +170,7 @@ One section on the Settings tab, with three rows. Records are kept in this brows
 
 - Statistics are only as complete as what the GM's browser saw, see [Where the numbers come from](#where-the-numbers-come-from).
 - The history is not shared between GM browsers: use **Import and export** to move it.
-- The cooldown of a deeper import is kept on the server and starts again if the server restarts.
+- The hourly import limit is kept on the server and starts again if the server restarts.
 - Only the latest manual session start is remembered, so older hand-made splits are not recovered.
 - The automatic recap after a pause only runs while the relaying GM browser is open: it posts when it next sees a session that ended within the last day.
 - Without a membership that includes them, locked parts show a hint instead, see [Tiers]({{ '/tiers.html' | relative_url }}).

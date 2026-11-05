@@ -213,7 +213,7 @@ Open **Gamelog Config → Statistics** after some rolls, public and private. See
 - Switch on counting Foundry rolls (characters, monsters) and roll from a sheet in Foundry.
 - **Expect**: the roll is added to the same actor's D&D Beyond rolls; switched off again, it leaves the view.
 - Check the Checks & saves, Combat and Luck tabs (PRO).
-- **Expect**: skills, abilities and saves are listed, each with a Luck column from 5 d20 rolls; Combat shows no hit rate, only dice figures and counts without percentages; Luck shows from 10 d20 rolls.
+- **Expect**: skills, abilities and saves are listed, each with a Luck column from 10 d20 rolls; Combat shows no hit rate, only dice figures and counts without percentages; Luck shows from 10 d20 rolls.
 - Pick a character in the **Character** selector on Checks & saves, Luck and Sessions, and hover over a bar or a data point in a chart.
 - **Expect**: the tables and charts narrow to that character, and the exact value shows on hover.
 - Switch on **Show percentages** in Settings and open Combat.
@@ -222,6 +222,14 @@ Open **Gamelog Config → Statistics** after some rolls, public and private. See
 - **Expect**: awards appear on the Luck tab for the GM only, and nowhere in chat.
 - As a player, use the **My dice statistics** button next to the chat input (needs the GM on PRO).
 - **Expect**: only your own characters, no monsters, no other player's private rolls. With the GM's switch off, the button explains it is unavailable.
+- As GM, import past rolls from D&D Beyond. Then, with that GM online, open **My dice statistics** as a player whose character is linked to a Foundry actor.
+- **Expect**: the player sees their character's imported public rolls too; the count matches the GM page for that character minus private rolls this player's browser never saw.
+- In the player view, open Checks & saves, Combat, Luck and Sessions.
+- **Expect**: the same kinds of figures as the GM page, for the player's own characters only, and no luck awards.
+- Switch on **Leave out short sessions** as GM, then reopen the player view.
+- **Expect**: the player view leaves out the same short sessions as the GM page.
+- As GM, use **Reset statistics**, import again, then reopen the player view.
+- **Expect**: the player view fills up again with the imported rolls instead of staying empty.
 - Post the recap to chat, and to Discord with a webhook connected.
 - **Expect**: a chat card sent as "DDB Gamelog" with one wrapping row per character, readable in both Foundry 13 and 14; a Discord embed with big totals, emoji highlights and a party table. Public rolls only; private rolls never appear.
 - Turn on the automatic recap, then use **Start** under **Current session** on the Sessions tab.
@@ -243,7 +251,15 @@ Open **Gamelog Config → Statistics** after some rolls, public and private. See
 - Tick **Also recreate the roll cards** and import from D&D Beyond again with some rolls that have no card yet.
 - **Expect**: the page reports how many chat cards were made, at most the number picked next to the tick box (50, 100 or 200). The cards sit in the chat log in the order they were rolled, oldest at the top, themed like live cards, with no sound or notification, no templates or other automation, and no doubled numbers on the Statistics page. Attack and damage cards show the weapon or spell image and name; damage cards have no apply buttons. Running it again makes no further cards. A private roll is visible to the GM and its owner only.
 - Let an import reach the oldest roll, then run it again.
-- **Expect**: the second run stops after the first page, as it already knows everything. Within 3 hours a deeper walk is refused with the time it is possible again, but the latest rolls still refresh. The import button is then disabled, and hovering it shows when it works again.
+- **Expect**: the second run stops after the first page, as it already knows everything. Within the hour after the first run the button is disabled, and hovering it shows when it works again.
+- Import a campaign with more than 1,000 rolls.
+- **Expect**: it stops at 1,000 rolls and says that is the most one import reads.
+- Open the Sessions tab with a few sessions, including one with only a couple of rolls.
+- **Expect**: dates along the bottom of the charts; a session without a d20 average or luck is a grey hollow mark with a dashed line, and hovering it says why.
+- Switch on **Leave out short sessions** in Settings.
+- **Expect**: sessions with fewer than 10 d20 rolls by player characters disappear from every tab, the history and the charts; switched off, they are back.
+- With no attack rolls in the range, open Combat.
+- **Expect**: "No attack or damage rolls in this range".
 - Open the Sessions tab in a browser that does not relay, and as a member without PRO.
 - **Expect**: the import from D&D Beyond is disabled and says why; without PRO the import and export buttons are locked with an upgrade hint.
 - Without a tier (second free Patreon account, see section 10).
