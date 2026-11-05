@@ -10,6 +10,21 @@ These are test builds. Each release may break things that worked before. Please 
 
 Newest first. This is a short summary for testers. Update the module in Foundry to get a release, see [Install]({{ '/install.html' | relative_url }}#update).
 
+## 3.0.0-beta.3 (2026-11-05)
+
+New:
+
+- **Statistics (experimental).** Dice statistics for your campaign, built from the rolls Gamelog relays from D&D Beyond and kept per campaign in the GM's browser, so flushing the chat log does not erase them. Open them in **Gamelog Config → Statistics**. Basic gets the party at a glance, highlights, a character table and the range filter. PRO adds the monster table, Checks & saves, Combat and Luck tabs, the d20 distribution, session charts and history, luck awards and luck per skill. See [Statistics]({{ '/features/statistics.html' | relative_url }}) for what to try and the known limits.
+- **Player view (PRO).** Players get a **My dice statistics** button next to the chat input and see their own characters only.
+- **Session recap (PRO).** Post the latest session to chat as a themed card or to Discord as an embed, by hand or automatically when a session ends. Luck awards in the recap are opt-in.
+- **Import and export (PRO).** Import past rolls from D&D Beyond's game log, export statistics as CSV or JSON, and import a JSON file again to move them to another GM browser.
+- **Example data.** With upgrade hints on, tabs your membership does not include show made-up example rolls instead of a lock. They are never stored.
+- **General page.** A new page in **Gamelog Config** for the upgrade hints, a sidebar shortcut button and the update popup.
+
+Fixed:
+
+- The rolling placeholder stays until Foundry's notification finishes.
+
 ## 3.0.0-beta.2 (2026-11-04)
 
 New:
