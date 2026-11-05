@@ -85,13 +85,28 @@ Luck is the d20 average minus the average the dice give for each roll's advantag
 
 ## Player view (PRO)
 
-With **Let players see their own statistics** on (the default; locked without PRO), players get a **My dice statistics** button next to the chat input. It shows the rolls of the characters they own: personal bests, luck, a table and the range filter. Monsters and other players' private rolls never show.
+With **Let players see their own statistics** on (the default; locked without PRO), players get a **My dice statistics** button next to the chat input. It shows the rolls of the characters they own, with the range filter and these tabs:
+
+- **Overview**: personal bests, luck and a table per character.
+- **Checks & saves**, **Combat** and **Luck** (with the d20 distribution): the same figures as the GM page, for their own characters. Luck awards stay with the GM.
+- **Sessions**: rolls, d20 average and luck per session, once there are two.
+
+Monsters and other players' private rolls never show.
 
 {% include screenshot.html src="statistics-player-button.png" alt="The My dice statistics button next to the chat input" %}
 
 {% include screenshot.html src="statistics-player.png" alt="The player's own statistics window" %}
 
-It runs on the GM's PRO membership, players do not need one. Without PRO the button is not shown. A player's numbers start when the view first became available in their browser, and rolls of characters without a Foundry actor are not shown.
+It runs on the GM's PRO membership, players do not need one. Without PRO the button is not shown.
+
+Where a player's numbers come from:
+
+- The player's browser keeps the rolls it sees in the chat.
+- When the view opens while the GM who relays the rolls is online, the GM's browser adds the **public** rolls of the player's characters it has, imported ones included. If that GM is offline, the view shows what the player's browser has, and the next open fills the rest.
+- The player's own **private** rolls show only if their browser saw them. They are not sent over, because Foundry's socket reaches every browser at the table.
+- With **Leave out short sessions** on, the player view leaves out the same sessions as the GM page.
+- After the GM uses **Reset statistics**, the player's browser clears its own records once and fills up again from the GM.
+- Rolls of characters without a Foundry actor are not shown.
 
 ## Session recap (PRO)
 
@@ -143,7 +158,7 @@ One section on the Settings tab, with three rows. Records are kept in this brows
 ## Settings
 
 - **Count Foundry rolls of player characters / of monsters**: also count rolls made from sheets in Foundry, added to the same actor's D&D Beyond rolls. Off by default, experimental.
-- **Leave out short sessions**: sessions with fewer than 10 d20 rolls by player characters, such as a test or a few rolls between games, are left out of every tab, the session history, the charts and the export. Nothing is deleted; switch it off to count them again. Off by default.
+- **Leave out short sessions**: sessions with fewer than 10 d20 rolls by player characters, such as a test or a few rolls between games, are left out of every tab, the session history, the charts and the export, and of the player view. Nothing is deleted; switch it off to count them again. Off by default.
 - **Show percentages**: shares next to the counts in the Combat table (natural 20s and 1s, advantage and disadvantage). Off by default, and kept per browser.
 - **Let players see their own statistics**: the player view above.
 - **Show luck awards**: on the Luck tab, off by default.

@@ -10,6 +10,18 @@ These are test builds. Each release may break things that worked before. Please 
 
 Newest first. This is a short summary for testers. Update the module in Foundry to get a release, see [Install]({{ '/install.html' | relative_url }}#update).
 
+## 3.0.0-beta.7 (2026-11-06)
+
+New:
+
+- **Players see their whole history (PRO).** When a player opens **My dice statistics** while the GM who relays the rolls is online, the GM's browser sends the public rolls of that player's characters, imported ones included. Before, a player only had the rolls their own browser saw live.
+- **More tabs in the player view (PRO).** Next to the overview, players get Checks & saves, Combat, Luck (with the d20 distribution) and Sessions (charts per session) for their own characters.
+- **Leave out short sessions** now applies to the player view too, using the same sessions as the GM page.
+
+Fixed:
+
+- After the GM reset the statistics, the player view hid every roll from before the reset, including rolls the GM imported later. It now starts fresh once and fills up again from the GM.
+
 ## 3.0.0-beta.6 (2026-11-05)
 
 New:

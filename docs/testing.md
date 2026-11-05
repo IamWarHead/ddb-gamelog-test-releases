@@ -222,6 +222,14 @@ Open **Gamelog Config → Statistics** after some rolls, public and private. See
 - **Expect**: awards appear on the Luck tab for the GM only, and nowhere in chat.
 - As a player, use the **My dice statistics** button next to the chat input (needs the GM on PRO).
 - **Expect**: only your own characters, no monsters, no other player's private rolls. With the GM's switch off, the button explains it is unavailable.
+- As GM, import past rolls from D&D Beyond. Then, with that GM online, open **My dice statistics** as a player whose character is linked to a Foundry actor.
+- **Expect**: the player sees their character's imported public rolls too; the count matches the GM page for that character minus private rolls this player's browser never saw.
+- In the player view, open Checks & saves, Combat, Luck and Sessions.
+- **Expect**: the same kinds of figures as the GM page, for the player's own characters only, and no luck awards.
+- Switch on **Leave out short sessions** as GM, then reopen the player view.
+- **Expect**: the player view leaves out the same short sessions as the GM page.
+- As GM, use **Reset statistics**, import again, then reopen the player view.
+- **Expect**: the player view fills up again with the imported rolls instead of staying empty.
 - Post the recap to chat, and to Discord with a webhook connected.
 - **Expect**: a chat card sent as "DDB Gamelog" with one wrapping row per character, readable in both Foundry 13 and 14; a Discord embed with big totals, emoji highlights and a party table. Public rolls only; private rolls never appear.
 - Turn on the automatic recap, then use **Start** under **Current session** on the Sessions tab.
