@@ -7,6 +7,11 @@ nav_order: 3
 
 You do these steps once, as the GM, in the browser you normally use for Foundry. Open **Game Settings → Configure Settings → D&D Beyond Gamelog → Open Gamelog Config** and go to the **Connection** page.
 
+{: .note }
+Once the module is active, GMs also get a **dragon button** in the sidebar, above the Settings tab, that opens Gamelog Config directly. You can switch it off under **Gamelog Config → General → Interface → Gamelog button in the sidebar**. The setting is remembered per browser.
+
+{% include screenshot.html src="sidebar-button.png" alt="The Gamelog button above the Settings tab in the sidebar" %}
+
 {: .warning }
 This is a test build. If a step does not work as described, that may be a bug. Please report it, see [Feedback]({{ '/feedback.html' | relative_url }}).
 

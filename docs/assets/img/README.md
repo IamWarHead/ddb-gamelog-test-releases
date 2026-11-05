@@ -31,7 +31,10 @@ Pages include the images below via `{% include screenshot.html src="<name>.png" 
 | `statistics-player.png` | The player's "My statistics" window | features/statistics |
 | `statistics-recap-card.png` | A session recap card in Foundry chat | features/statistics |
 | `statistics-recap-discord.png` | The session recap embed in a Discord channel | features/statistics |
-| `statistics-sessions.png` | Statistics, Sessions tab with history, charts and export buttons | features/statistics |
+| `statistics-sessions.png` | Statistics, Sessions tab with history and the current session | features/statistics |
+| `statistics-import.png` | Statistics, Sessions tab, "Import and export" section (export, from D&D Beyond, from file) | features/statistics |
+| `sidebar-button.png` | The sidebar tab column with the dragon button above the Settings tab | first-steps |
+| `general-page.png` | Gamelog Config, General page | features/rolls-and-chat-cards |
 | `legendary-patrons.png` | Gamelog Config, Legendary Patrons page with a few names on the list | features/legendary-patrons |
 | `integrations.png` | Gamelog Config, Integrations page | integrations |
 | `debug-panel.png` | Gamelog Config, Debug panel | troubleshooting |

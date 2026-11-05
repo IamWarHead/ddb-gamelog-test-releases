@@ -207,7 +207,7 @@ Turn the switches on in **Gamelog Config → Rolls & cards → Automatisms** fir
 Open **Gamelog Config → Statistics** after some rolls, public and private. See [Statistics]({{ '/features/statistics.html' | relative_url }}).
 
 - Roll a few attacks, checks, saves and damage on D&D Beyond, then switch the range between latest session, 30 days and all time.
-- **Expect**: the counts, highlights and character table follow the range.
+- **Expect**: the counts, party at a glance, highlights and character table follow the range.
 - Flush the chat log in Foundry and reopen the page.
 - **Expect**: the numbers are still there.
 - Switch on counting Foundry rolls (characters, monsters) and roll from a sheet in Foundry.
@@ -216,18 +216,43 @@ Open **Gamelog Config → Statistics** after some rolls, public and private. See
 - **Expect**: skills, abilities and saves are listed; Combat shows no hit rate, only dice figures; Luck shows from 10 d20 rolls.
 - Turn on luck awards in Settings.
 - **Expect**: awards appear on the Luck tab for the GM only, and nowhere in chat.
-- As a player, use the **My dice statistics** button next to the chat input.
+- As a player, use the **My dice statistics** button next to the chat input (needs the GM on PRO).
 - **Expect**: only your own characters, no monsters, no other player's private rolls. With the GM's switch off, the button explains it is unavailable.
 - Post the recap to chat, and to Discord with a webhook connected.
-- **Expect**: a card with public rolls only; private rolls never appear.
-- Turn on the automatic recap and use **Start a new session now**.
+- **Expect**: a chat card sent as "DDB Gamelog" with one wrapping row per character, readable in both Foundry 13 and 14; a Discord embed with big totals, emoji highlights and a party table. Public rolls only; private rolls never appear.
+- Turn on the automatic recap, then use **Start** under **Current session** on the Sessions tab.
 - **Expect**: the session that ended is posted, and new rolls count in a new session.
-- Export CSV and JSON on the Sessions tab.
-- **Expect**: a file with one row per character or monster and session.
-- Use **Reset statistics**.
+- Use **Export CSV** and **Export JSON** in the **Import and export** section.
+- **Expect**: a file with one row per character or monster and session; the JSON also holds every roll.
+- Use **Reset statistics** in Settings (the red button), confirm.
 - **Expect**: the records of this campaign are gone and old chat rolls are not counted again.
+- Pick **Import from file** and choose the JSON you exported before the reset.
+- **Expect**: the rolls are back, with their types, skills and private/public state. Importing the same file again adds nothing. A file that is not an export, or an export made before this build, is refused with a message.
+- Use **Import from D&D Beyond** in a browser that relays, with a campaign that has plenty of rolls.
+- **Expect**: progress shows rolls read, new rolls and how far back it got; the dates move back. Rolls you already have are not doubled, and a private roll meant for another player never appears.
+- Press **Stop** in the middle, then press the button again.
+- **Expect**: it reads **Continue import from D&D Beyond** and carries on where it stopped.
+- Let an import reach the oldest roll, then run it again.
+- **Expect**: the second run stops after the first page, as it already knows everything. Within 3 hours a deeper walk is refused with the time it is possible again, but the latest rolls still refresh.
+- Open the Sessions tab in a browser that does not relay, and as a member without PRO.
+- **Expect**: the import from D&D Beyond is disabled and says why; without PRO the import and export buttons are locked with an upgrade hint.
 - Without a tier (second free Patreon account, see section 10).
-- **Expect**: only the session-so-far teaser shows, with an upgrade hint.
+- **Expect**: the Overview shows only the session-so-far teaser with an upgrade hint, and the Checks & saves, Combat, Luck and Sessions tabs show example figures under an "Example data" banner. With **Show upgrade hints** switched off on the General page, they show a lock instead.
+
+## 13. General page and sidebar button
+
+Open **Gamelog Config → General** as a GM. See [First steps]({{ '/first-steps.html' | relative_url }}).
+
+- Look at the sidebar tab column in Foundry.
+- **Expect**: a dragon button above the Settings tab (in Foundry 14, below the Dice So Nice tab if you have it). Clicking it opens Gamelog Config; clicking it with the window already open brings it forward instead of opening a second one.
+- Switch off **Gamelog button in the sidebar** and save.
+- **Expect**: the button disappears at once, without reloading. Switch it on again and it returns.
+- Log in as a player.
+- **Expect**: no button.
+- Switch **Show upgrade hints** off and look at a relayed card.
+- **Expect**: no upgrade line, only for you.
+- Change **Popup for a new module version** and reload Foundry when a newer build is out.
+- **Expect**: the popup follows the choice; the green banner in Gamelog Config shows either way.
 
 ## What to send back
 

@@ -72,8 +72,8 @@ If the module tells you that your version is no longer supported, update it.
 
 The module also tells you when a newer test build is out: the GM gets a popup,
 and **Gamelog Config** shows a green banner at the top of every page until you
-update. Players never see either. Under **Gamelog Config → Debug panel →
-Updates** you choose whether the popup shows once per release (the default) or
+update. Players never see either. Under **Gamelog Config → General →
+Interface** you choose whether the popup shows once per release (the default) or
 every time Foundry loads.
 
 ## Go back to the stable v2 module

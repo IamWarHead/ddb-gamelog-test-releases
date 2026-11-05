@@ -56,9 +56,11 @@ The choice applies to GMs only; for players the click always selects and pans to
 
 ## Upgrade hints
 
-The **This browser** section at the bottom of the **Rolls & cards** page has **Show upgrade hints**. It adds a muted line to a relayed card where a higher Gamelog membership would do something more, for example applying damage.
+The **General** page of Gamelog Config has **Show upgrade hints** in its **Interface** section. It adds a muted line to a relayed card where a higher Gamelog membership would do something more, for example applying damage.
 
 Only GMs ever see these lines, never players, and the setting is remembered per browser rather than per world. Turn it off once the hints become noise.
+
+{% include screenshot.html src="general-page.png" alt="The General page of Gamelog Config" %}
 
 ## Item and spell links
 
