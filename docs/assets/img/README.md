@@ -23,16 +23,18 @@ Pages include the images below via `{% include screenshot.html src="<name>.png" 
 | `combat-tracker-2.png` | Foundry combat tracker with a loaded D&D Beyond encounter | features/combat-tracker |
 | `statistics-overview.png` | Statistics, Overview tab with highlights and the character table | features/statistics |
 | `statistics-checks.png` | Statistics, Checks & saves tab with skills and saves | features/statistics |
-| `statistics-combat.png` | Statistics, Combat tab with the attack and damage table | features/statistics |
-| `statistics-luck.png` | Statistics, Luck tab with luck per character and the d20 distribution | features/statistics |
-| `statistics-awards.png` | Luck awards, with the awards switch on | features/statistics |
+| `statistics-combat-1.png` | Statistics, Combat tab with the attack and damage table | features/statistics |
+| `statistics-combat-2.png` | Statistics, Combat tab scrolled down: combat charts, healing and death saves | features/statistics |
+| `statistics-luck-1.png` | Statistics, Luck tab with the selectors and luck per character | features/statistics |
+| `statistics-luck-2.png` | Statistics, Luck tab scrolled down: luck awards (switch on) and the d20 distribution | features/statistics |
 | `statistics-settings.png` | Statistics, Settings tab | features/statistics |
 | `statistics-player-button.png` | The "My dice statistics" button next to the chat input (player view) | features/statistics |
 | `statistics-player.png` | The player's "My statistics" window | features/statistics |
 | `statistics-recap-card.png` | A session recap card in Foundry chat | features/statistics |
 | `statistics-recap-discord.png` | The session recap embed in a Discord channel | features/statistics |
+| `statistics-sessions-recap.png` | Statistics, Sessions tab scrolled down: Current session and Session recap | features/statistics |
 | `statistics-sessions.png` | Statistics, Sessions tab with history and the current session | features/statistics |
-| `statistics-import.png` | Statistics, Sessions tab, "Import and export" section (export, from D&D Beyond, from file) | features/statistics |
+| `statistics-import.png` | Statistics, Settings tab, "Import and export" section (export, from D&D Beyond, from file) | features/statistics |
 | `sidebar-button.png` | The sidebar tab column with the dragon button above the Settings tab | first-steps |
 | `general-page.png` | Gamelog Config, General page | features/rolls-and-chat-cards |
 | `legendary-patrons.png` | Gamelog Config, Legendary Patrons page with a few names on the list | features/legendary-patrons |

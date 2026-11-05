@@ -18,10 +18,10 @@ This is a test build, and this feature is experimental on top of that. Figures m
 | Players see their own statistics | PRO |
 | Monster table, Checks & saves, Combat and Luck tabs | PRO |
 | d20 distribution and session charts | PRO |
-| Luck awards | PRO |
+| Luck awards, and luck per skill, ability and save | PRO |
 | Session history and CSV / JSON export | PRO |
 | Import past rolls from D&D Beyond, and from a file | PRO |
-| Session recap to chat and Discord | PRO |
+| Session recap to chat and Discord, by hand or when a session ends, with the luck awards if you want them | PRO |
 
 Dice statistics for your campaign, built from the rolls Gamelog relays from D&D Beyond. Open them in **Gamelog Config → Statistics**.
 
@@ -30,30 +30,34 @@ Dice statistics for your campaign, built from the rolls Gamelog relays from D&D 
 - Every roll the GM's browser sees is stored there, so **flushing the chat log does not erase the statistics**.
 - Records are filed per D&D Beyond campaign. The page shows the current campaign.
 - They are kept in the **GM's browser only**, because they include private rolls. A second GM, or a cleared browser, starts with its own (or no) history.
-- Rolls from before the module was installed, or made while no GM browser was open and deleted since, are missing. **Import and export** on the Sessions tab can fill that gap, see [Import and export](#import-and-export-pro).
-- A new **session** starts after a 3-hour pause. The GM can also start one by hand, from the Sessions tab.
+- Rolls from before the module was installed, or made while no GM browser was open and deleted since, are missing. **Import and export** on the Settings tab can fill that gap, see [Import and export](#import-and-export-pro).
+- A new **session** starts after a 3-hour pause. The GM can also start one by hand, from the Sessions tab. The recap can be posted when a session ends, see [Session recap](#session-recap-pro).
 
 Rolls made in Foundry itself (from character or NPC sheets) are counted only if you switch them on, see [Settings](#settings).
 
 ## The tabs
 
-The **Show** selector at the top picks the range: latest session, last 30 days, or all time.
+The **Time period** selector at the top picks the range: latest session, last 30 days, or all time. Checks & saves and Luck also have a **Character** selector (the whole party or one character), and so has the session history on the Sessions tab.
+
+Charts have a y axis, and hovering a bar or a data point shows its exact value. Longer explanations sit behind a small info icon: hover or tab to it.
 
 - **Overview**: the party at a glance (total rolls, d20 average, natural 20s and 1s, damage dealt, healing done), highlights (highest and lowest d20 average, most natural 20s and 1s, biggest hit, most damage, most healing) and a table per character. With PRO, also a table for monsters and others.
 
 {% include screenshot.html src="statistics-overview.png" alt="The Overview tab with highlights and the character table" %}
 
-- **Checks & saves** (PRO): rolls by type, skills, ability checks and saving throws by ability, for the whole party or one character.
+- **Checks & saves** (PRO): rolls by type, skills, ability checks and saving throws by ability, for the whole party or one character. Each table has a **Luck** column and a luck chart, see [Luck](#luck).
 
 {% include screenshot.html src="statistics-checks.png" alt="The Checks & saves tab" %}
 
-- **Combat** (PRO): attacks, damage, healing and death saves, per character and for the party.
+- **Combat** (PRO): attacks, damage, healing and death saves, per character and for the party. Counts are shown by default; switch on **Show percentages** in Settings to add shares of the attack rolls.
 
-{% include screenshot.html src="statistics-combat.png" alt="The Combat tab" %}
+{% include screenshot.html src="statistics-combat-1.png" alt="The Combat tab with the attacks and damage table" %}
 
-- **Luck** (PRO): how far each character's d20 average is above or below what the dice give on average, the d20 distribution chart and the luck awards.
-- **Sessions** (PRO): session history, starting a new session, the recap, and import and export.
-- **Settings**: what is counted and shown, the automatic recap, and **Reset statistics**.
+{% include screenshot.html src="statistics-combat-2.png" alt="The combat charts and the healing and death saves table" %}
+
+- **Luck** (PRO): how far each character's d20 average is above or below what the dice give on average, the luck awards and the d20 distribution chart, for the whole party or the character you pick.
+- **Sessions** (PRO): session history with charts, starting a new session, and the recap.
+- **Settings**: what is counted and shown, the automatic recap, **Import and export**, and **Reset statistics**.
 
 {% include screenshot.html src="statistics-settings.png" alt="The Settings tab" %}
 
@@ -69,13 +73,15 @@ With **Show upgrade hints** on (**Gamelog Config → General**), the tabs your m
 
 ## Luck
 
-Luck is the d20 average minus the average the dice give for each roll's advantage mode. It evens out over many rolls, and it shows from 10 d20 rolls.
+Luck is the d20 average minus the average the dice give for each roll's advantage mode. It evens out over many rolls. Per character it shows from 10 d20 rolls.
 
-**Luck awards** (PRO) name the luckiest and toughest dice, and the longest hot streak (3 or more d20 rolls of 15 or higher in a row) and cold streak (3 or more of 5 or lower). They are **off by default**, only the GM sees them, and they are never posted to chat or Discord. Ties get no award.
+**Luck per skill** (PRO): on Checks & saves, every table (roll types, skills, ability checks, saving throws) has a Luck column, and each section a signed chart, using the same measure. It shows from 5 d20 rolls of a skill, and follows the **Character** selector, so you can see where one character's dice run hot or cold.
 
-{% include screenshot.html src="statistics-luck.png" alt="The Luck tab with luck per character and the d20 distribution" %}
+**Luck awards** (PRO) name the luckiest and toughest dice, and the longest hot streak (3 or more d20 rolls of 15 or higher in a row) and cold streak (3 or more of 5 or lower). They are **off by default** and only the GM sees them on the Luck tab. They reach the table only if you switch on **Name luck awards in the recap**, see [Session recap](#session-recap-pro). Ties get no award.
 
-{% include screenshot.html src="statistics-awards.png" alt="Luck awards on the Luck tab" %}
+{% include screenshot.html src="statistics-luck-1.png" alt="The Luck tab with the Time period and Character selectors and luck per character" %}
+
+{% include screenshot.html src="statistics-luck-2.png" alt="Luck awards and the d20 distribution on the Luck tab" %}
 
 ## Player view (PRO)
 
@@ -93,9 +99,12 @@ The latest session as a summary: totals, highlights and the characters.
 
 - **Post recap to chat** puts a themed card in the chat for the whole table, sent as "DDB Gamelog". Each character gets its own row with labelled values (rolls, d20 average, natural 20s and 1s, damage, healing) that wrap to fit a narrow chat, and empty values are left out.
 - **Post recap to Discord** needs the Discord integration, see [Discord]({{ '/features/discord.html' | relative_url }}). The embed shows the totals as large numbers, the highlights with an emoji each, and the party as an aligned table. It is in English.
-- The Settings tab can post the recap by itself when you use **Start** under **Current session**. A session that ends after a 3-hour pause is not posted.
+- The Settings tab can post the recap by itself when a session ends: after a **3-hour pause without rolls**, or when you use **Start** under **Current session**. After a pause only the GM browser that relays the rolls posts (so a table with several GMs gets one post), only for a session that ended in the last 24 hours, and only with at least 5 public rolls. Each session is posted once.
+- **Name luck awards in the recap** (PRO, off by default) adds the session's luckiest and toughest dice and hot and cold streaks to the chat card and the Discord embed. The whole table sees them, so they are opt-in.
 
 Only **public rolls** are included, so private rolls never appear.
+
+{% include screenshot.html src="statistics-sessions-recap.png" alt="The Current session and Session recap sections on the Sessions tab" %}
 
 {% include screenshot.html src="statistics-recap-card.png" alt="The session recap card in Foundry chat" %}
 
@@ -103,7 +112,7 @@ Only **public rolls** are included, so private rolls never appear.
 
 ## Session history and current session (PRO)
 
-The Sessions tab lists the latest sessions of the campaign with their rolls, natural 20s and 1s and the most active character, and charts the rolls and d20 average per session once there are two.
+The Sessions tab lists the latest sessions of the campaign with their rolls, natural 20s and 1s and the most active character, and charts the rolls, the d20 average and the luck per session once there are two. The **Character** selector narrows the charts to one character.
 
 Under **Current session**, **Start** counts rolls from now on as a new session. With the automatic recap switched on, the session that ends is posted first.
 
@@ -111,7 +120,7 @@ Under **Current session**, **Start** counts rolls from now on as a new session. 
 
 ## Import and export (PRO)
 
-One section on the Sessions tab, with three rows. Records are kept in this browser only, so this is also how you move statistics to another GM browser.
+One section on the Settings tab, with three rows. Records are kept in this browser only, so this is also how you move statistics to another GM browser.
 
 {% include screenshot.html src="statistics-import.png" alt="The Import and export section" %}
 
@@ -131,9 +140,11 @@ One section on the Sessions tab, with three rows. Records are kept in this brows
 ## Settings
 
 - **Count Foundry rolls of player characters / of monsters**: also count rolls made from sheets in Foundry, added to the same actor's D&D Beyond rolls. Off by default, experimental.
+- **Show percentages**: shares next to the counts in the Combat table (natural 20s and 1s, advantage and disadvantage). Off by default, and kept per browser.
 - **Let players see their own statistics**: the player view above.
-- **Show luck awards**: off by default.
-- **Automatic recap** to chat and to Discord when you start a new session.
+- **Show luck awards**: on the Luck tab, off by default.
+- **Automatic recap** to chat and to Discord when a session ends, and **Name luck awards in the recap**.
+- **Import and export**: see above.
 - **Reset statistics**: a red button that deletes the roll records this browser stored for the current campaign, after a confirmation. Rolls still in the chat log are not counted again.
 
 ## Known limits
@@ -142,4 +153,5 @@ One section on the Sessions tab, with three rows. Records are kept in this brows
 - The history is not shared between GM browsers: use **Import and export** to move it.
 - The cooldown of a deeper import is kept on the server and starts again if the server restarts.
 - Only the latest manual session start is remembered, so older hand-made splits are not recovered.
+- The automatic recap after a pause only runs while the relaying GM browser is open: it posts when it next sees a session that ended within the last day.
 - Without a membership that includes them, locked parts show a hint instead, see [Tiers]({{ '/tiers.html' | relative_url }}).

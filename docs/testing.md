@@ -213,7 +213,11 @@ Open **Gamelog Config → Statistics** after some rolls, public and private. See
 - Switch on counting Foundry rolls (characters, monsters) and roll from a sheet in Foundry.
 - **Expect**: the roll is added to the same actor's D&D Beyond rolls; switched off again, it leaves the view.
 - Check the Checks & saves, Combat and Luck tabs (PRO).
-- **Expect**: skills, abilities and saves are listed; Combat shows no hit rate, only dice figures; Luck shows from 10 d20 rolls.
+- **Expect**: skills, abilities and saves are listed, each with a Luck column from 5 d20 rolls; Combat shows no hit rate, only dice figures and counts without percentages; Luck shows from 10 d20 rolls.
+- Pick a character in the **Character** selector on Checks & saves, Luck and Sessions, and hover over a bar or a data point in a chart.
+- **Expect**: the tables and charts narrow to that character, and the exact value shows on hover.
+- Switch on **Show percentages** in Settings and open Combat.
+- **Expect**: natural 20s and 1s show a share in brackets, and the advantage and disadvantage columns turn into percentages.
 - Turn on luck awards in Settings.
 - **Expect**: awards appear on the Luck tab for the GM only, and nowhere in chat.
 - As a player, use the **My dice statistics** button next to the chat input (needs the GM on PRO).
@@ -222,7 +226,11 @@ Open **Gamelog Config → Statistics** after some rolls, public and private. See
 - **Expect**: a chat card sent as "DDB Gamelog" with one wrapping row per character, readable in both Foundry 13 and 14; a Discord embed with big totals, emoji highlights and a party table. Public rolls only; private rolls never appear.
 - Turn on the automatic recap, then use **Start** under **Current session** on the Sessions tab.
 - **Expect**: the session that ended is posted, and new rolls count in a new session.
-- Use **Export CSV** and **Export JSON** in the **Import and export** section.
+- Switch on **Name luck awards in the recap** and post the recap again.
+- **Expect**: the card and the Discord embed list the session's awards (only when someone stands out), public rolls only.
+- Roll at least 5 public rolls with the automatic recap on, then leave the table idle for 3 hours with the relaying GM browser open.
+- **Expect**: the recap is posted once without anyone pressing a button, and not again after a reload.
+- Use **Export CSV** and **Export JSON** in the **Import and export** section on the Settings tab.
 - **Expect**: a file with one row per character or monster and session; the JSON also holds every roll.
 - Use **Reset statistics** in Settings (the red button), confirm.
 - **Expect**: the records of this campaign are gone and old chat rolls are not counted again.
