@@ -74,9 +74,9 @@ Coming from the closed alpha? The beta runs on a new server, which does not know
 
 ## 4. Join the test {#join-the-test}
 
-While the test is closed, the server only sends D&D Beyond rolls to accounts that joined. On the Connection page, click **Join the test**. The page then shows your tier and how many days you have left.
+While a closed phase runs, the server only sends D&D Beyond rolls to accounts that joined. In the open beta, rolls arrive without joining, with the Free features or your own Patreon tier. On the Connection page, click **Join the test**. The page then shows your tier and how many days you have left.
 
-If joining is refused, the page tells you why. You may have to log in with Patreon first so the server can check whether you can join.
+If joining is refused, the page tells you why. In the closed phases, you may have to log in with Patreon first so the server can check whether you can join. The open beta needs no Patreon login.
 
 Who can join and for how long depends on the phase:
 
@@ -84,22 +84,23 @@ Who can join and for how long depends on the phase:
 | --- | --- | --- | --- | --- |
 | Closed alpha | October 12–25, 2026 | Everyone who has Gamelog MAX now or had it at some point | 7 days | Gamelog MAX features |
 | Closed beta | October 26–November 8, 2026 | Everyone who has Gamelog PRO or MAX now, plus everyone who tested the closed alpha | 7 days | Your own tier, at least PRO |
-| Open beta | November 9–15, 2026 | Anyone, no Patreon membership needed | 3 days | Gamelog PRO features |
+| Open beta | November 9–15, 2026 | Anyone, no Patreon membership needed | 3 days | Gamelog PRO features, or your own tier if it is higher |
 
 The open beta does not need a Patreon tier. Every date turns over at **midnight UTC** (01:00 in Central European Time, 02:00 in summer time), so a phase opens at the start of the first day and the last day in the table is still yours.
 {% include screenshot.html src="test-phase.png" alt="Join the test" %}
 
 ### When your days run out, and when a phase ends
 
-Your days start when you join, not when the phase does, and they keep running even if the phase closes in the meantime. Two things follow:
+Your days start when you join, not when the phase does, and they keep running even if the phase closes in the meantime. What follows:
 
 - **Each phase starts on its own**, on the date in the table. You do not have to wait for an announcement.
 - **If you tested the previous phase, the next one lets you in by itself.** Open your world after it starts and you are already in, with fresh days; there is nothing to click.
-- **Between phases, and after the last one, no D&D Beyond rolls arrive.** The block on the Connection page shows when the next phase opens.
+- **Between closed phases, no D&D Beyond rolls arrive.** The block on the Connection page shows when the next phase opens.
+- **After the open beta, rolls keep arriving**, with the Free features or your own Patreon tier.
 
 A new wave inside the same phase works differently: it comes with a new test build, and you press **Join the test** once more to get another run of days.
 
-When your access runs out, your world falls back to the tier of your own Patreon membership. While a closed phase runs, that means the server stops sending rolls until you have access again. You cannot join the same phase twice, but every new phase, and every new wave of testers inside a phase, lets you join again.
+When your access runs out, your world falls back to the tier of your own Patreon membership. While a closed phase runs, that means the server stops sending rolls until you have access again; in the open beta, rolls keep arriving with the Free features or your own tier. You cannot join the same phase twice, but every new phase, and every new wave of testers inside a closed phase, lets you join again. The open beta has no waves: one run of 3 days per D&D Beyond account.
 
 ## 5. Link your characters
 

@@ -89,8 +89,10 @@ Nobody can cover everything. This matrix says which combinations matter most, so
 - **Expect**: Overview shows the campaign and which browser relays.
 - Link Patreon, then look at the Membership row.
 - **Expect**: your tier, matching what you pay for. If no login window opens (desktop app, popup blocker), the page offers a link and a copy button, and linking works through them.
+- Open beta, before joining: roll something on D&D Beyond.
+- **Expect**: the roll arrives, with the Free features.
 - Press **Join the test**.
-- **Expect**: the page says how long you have.
+- **Expect**: the page says how long you have. Without a Patreon tier, the Membership row reads PRO from the test; with MAX it stays MAX.
 
 Coming from v2? See [the upgrade note]({{ '/troubleshooting.html' | relative_url }}#upgraded-from-v2) — being asked to link Patreon again is expected.
 

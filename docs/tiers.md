@@ -70,6 +70,6 @@ When you join the test, the Connection page shows your tier and how many days yo
 
 - Closed alpha: you get the Gamelog MAX features for 7 days.
 - Closed beta: you get your own tier, and at least the PRO features, for 7 days.
-- Open beta: you get the Gamelog PRO features for 3 days, even without a Patreon tier.
+- Open beta: you get the Gamelog PRO features for 3 days, even without a Patreon tier. With MAX you keep MAX. Afterwards the Free features, or your own tier, keep working.
 
 Dates and who can join are on the [Home]({{ '/' | relative_url }}#current-test-phase) page.
