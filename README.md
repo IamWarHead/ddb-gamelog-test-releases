@@ -1,6 +1,6 @@
-# D&D Beyond Gamelog – test builds
+# DDB Gamelog – test builds
 
-Alpha and beta builds of D&D Beyond Gamelog v3 for Foundry VTT.
+Alpha and beta builds of DDB Gamelog v3 for Foundry VTT.
 During the open beta (November 9–15, 2026) anyone can connect, no Patreon needed;
 join the test from inside Foundry for 3 days of Gamelog PRO.
 

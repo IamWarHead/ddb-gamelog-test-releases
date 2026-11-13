@@ -26,10 +26,10 @@ If you want to try it in a real session anyway, take a backup of the world befor
 
 ## Uninstall version 2 first
 
-The test build and the stable v2 module share the same module id, so Foundry can hold only one of them at a time. If **D&D Beyond Gamelog** is already installed from the module browser, remove it before you install the test build.
+The test build and the stable v2 module share the same module id, so Foundry can hold only one of them at a time. If **DDB Gamelog** is already installed from the module browser, remove it before you install the test build.
 
 1. Close your world, so no world has the module active.
-2. In **Add-on Modules**, find **D&D Beyond Gamelog** and uninstall it.
+2. In **Add-on Modules**, find **DDB Gamelog** and uninstall it.
 3. Restart Foundry if it still lists the old version.
 
 Uninstalling does not touch your world. Your v2 settings and character links stay in it, and the test build reads them once when it first starts. Going back later is just as easy, see [Go back to the stable v2 module](#go-back-to-the-stable-v2-module).
@@ -47,7 +47,7 @@ Do not try to install the test build over v2 without uninstalling. Foundry may k
    ```
 
 3. Click **Install**.
-4. Open your world, go to **Game Settings → Manage Modules**, enable **D&D Beyond Gamelog** and save.
+4. Open your world, go to **Game Settings → Manage Modules**, enable **DDB Gamelog** and save.
 
 {: .note }
 This URL always points at the newest test build, so keep it: you need it once, and Foundry finds every later test release through it.
@@ -64,7 +64,7 @@ Next: [First steps]({{ '/first-steps.html' | relative_url }}).
 
 ## Update
 
-Test builds are updated often. To update, open **Add-on Modules** in Foundry and update **D&D Beyond Gamelog** like any other module. You do not need the manifest URL again, and you do not need to uninstall anything. Check the [Changelog]({{ '/changelog.html' | relative_url }}) to see what changed.
+Test builds are updated often. To update, open **Add-on Modules** in Foundry and update **DDB Gamelog** like any other module. You do not need the manifest URL again, and you do not need to uninstall anything. Check the [Changelog]({{ '/changelog.html' | relative_url }}) to see what changed.
 
 The module shows its build channel (TEST) and version on its Debug page: **Gamelog Config → Debug panel**.
 
@@ -81,7 +81,7 @@ every time Foundry loads.
 The test build and the stable v2 module use the same module id, so you can have only one of them installed at a time.
 
 1. Close your world.
-2. In **Add-on Modules**, uninstall the test build of **D&D Beyond Gamelog**.
+2. In **Add-on Modules**, uninstall the test build of **DDB Gamelog**.
 3. Install the stable module from Foundry's module browser.
 
 Your world keeps its settings. The test build reads your v2 settings once when it starts and stores its own copy, so your v2 settings and character links are not deleted. Two things to know:

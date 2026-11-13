@@ -1,5 +1,5 @@
-title: D&D Beyond Gamelog – test builds
-description: Tester documentation for D&D Beyond Gamelog v3 (Foundry VTT module).
+title: DDB Gamelog – test builds
+description: Tester documentation for DDB Gamelog v3 (Foundry VTT module).
 url: https://iamwarhead.github.io
 baseurl: /ddb-gamelog-test-releases
 
@@ -23,7 +23,7 @@ aux_links:
   Discord: https://discord.com/invite/HSTtrphyFg
   Patreon: https://www.patreon.com/iamwarhead/
 
-footer_content: "D&D Beyond Gamelog test builds by Roland Hegedus. All rights reserved. Things may change or break between releases."
+footer_content: "DDB Gamelog test builds by Roland Hegedus. All rights reserved. Things may change or break between releases."
 
 callouts:
   warning:
