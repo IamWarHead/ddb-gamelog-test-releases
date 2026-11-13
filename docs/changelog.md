@@ -10,6 +10,39 @@ These are test builds. Each release may break things that worked before. Please 
 
 Newest first. This is a short summary for testers. Update the module in Foundry to get a release, see [Install]({{ '/install.html' | relative_url }}#update).
 
+## 3.0.0-beta.12 (2026-11-13)
+
+Fixed:
+
+- **Legendary Patrons page.** A list that failed to load no longer retries on every redraw; the page offers **Try again** instead. While your name is being added, hidden or shown, the button reads **Saving…**, and if the server does not confirm the change the page tells you so.
+
+## 3.0.0-beta.11 (2026-11-12)
+
+Changed:
+
+- **Tidier statistics page.** The page header is as tall as the brand bar and the tabs fit on one line. Tables are boxed and scroll sideways, with cut-short headings (hover for the full text). Charts use the full width and have quieter labels. The Overview card details and the d20 roll count moved behind an info icon.
+- **A note when nobody has enough d20 rolls for luck yet.** The Luck tab says luck shows once a character has 10 or more, instead of looking empty.
+
+The figures themselves do not change. The statistics code is now shared with the Owlbear Rodeo extension, so please tell us if any number looks different from beta.10, see [Feedback]({{ '/feedback.html' | relative_url }}).
+
+## 3.0.0-beta.10 (2026-11-11)
+
+Fixed:
+
+- **Saving the settings failed with "not a number".** Old character mappings from v2 could hold empty ids for NPCs and actors deleted since, and a mapping typed for an actor deleted while the window was open could not be cleared. Both blocked every save. They no longer do.
+
+Also: the **Support** page of Gamelog Config links the public documentation.
+
+## 3.0.0-beta.9 (2026-11-10)
+
+New:
+
+- **Avrae rolls (PRO, experimental).** Rolls made with the Avrae Discord bot (`!check`, `!save`, `!roll`, `!attack`) that D&D Beyond shows in its game log can appear as cards in Foundry. The new **Show Avrae rolls** switch in **Gamelog Config → Rolls & cards → Avrae** is **off by default**. Known limits are in [Rolls and chat cards]({{ '/features/rolls-and-chat-cards.html' | relative_url }}#rolls-made-with-avrae-experimental).
+
+Fixed:
+
+- Rolls labelled with a full ability name, such as "Strength", are filed under the right ability in the statistics.
+
 ## 3.0.0-beta.8 (2026-11-05)
 
 Fixed:
