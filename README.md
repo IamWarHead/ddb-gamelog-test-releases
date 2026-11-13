@@ -17,3 +17,7 @@ https://github.com/IamWarHead/ddb-gamelog-test-releases/releases/download/test-c
 ```
 
 It always points at the newest test build. Feedback: https://discord.com/invite/HSTtrphyFg
+
+## Copyright
+
+(c) 2021-2026 Roland Hegedus. All rights reserved, not open source, see [LICENSE.md](LICENSE.md).
