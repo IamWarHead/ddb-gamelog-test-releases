@@ -59,6 +59,7 @@ Nobody can cover everything. This matrix says which combinations matter most, so
 | --- | --- | --- |
 | D&D Beyond website, character sheet | Free | High |
 | D&D Beyond mobile app | PRO | High |
+| Avrae (Discord bot), switched on | PRO | Medium |
 | Encounter builder, monster rolls | PRO | Medium |
 | Dice roller on the D&D Beyond site | Free | Medium |
 
@@ -106,6 +107,8 @@ Coming from v2? See [the upgrade note]({{ '/troubleshooting.html' | relative_url
 - **Expect**: a "rolling…" card that is replaced by the result, not a second card.
 - Roll from the D&D Beyond **mobile app** (PRO).
 - **Expect**: it arrives like a website roll.
+- Turn on **Show Avrae rolls** (PRO), then use `!check`, `!save`, `!roll` and `!attack` in Discord.
+- **Expect**: each arrives like a website roll; with the setting off, none do.
 - Roll for a **monster** from the encounter builder (PRO).
 - **Expect**: it arrives, GM-only by default.
 
